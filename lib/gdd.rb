@@ -1,5 +1,5 @@
 require "gdd/version"
 
-module Gdd
+class Gdd < Thor
   # Your code goes here...
 end
