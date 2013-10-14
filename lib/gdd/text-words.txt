@@ -1,0 +1,3117 @@
+        Features
+          public
+          /
+          omniauth
+           Code
+             Issues
+             Wiki
+           Network
+  HTTPS clone URL
+      HTTPS,
+                Download ZIP
+      http://github.com/intridea/omniauth/wiki
+          commits
+                99.7%
+                0.3%
+        Switch branches/tags
+              Tags
+  omniauth /
+Show File Finder
+        Merge pull request #701 from lanej/default_args
+      accept options as default arg values - prevents empty args from nulling out valid option values
+      latest commit b19cfe4b8f
+        authored September 30, 2013
+        Rename public certificate
+      February 07, 2013
+        accept options as default arg values
+      September 29, 2013
+        accept options as default arg values
+      September 29, 2013
+        Gem dependency refactor
+      January 25, 2013
+        Add #licenses declaration to gemspec
+      July 09, 2013
+      February 25, 2013
+        Rename and prepare gemspec, add guard to Gemfile (but not gemspec).
+        Add #licenses declaration to gemspec
+      July 09, 2013
+        Loosen required_rubygems_version for compatibility with Ubuntu 10.04
+      May 06, 2013
+OmniAuth: Standardized Multi-Provider Authentication
+that can authenticate users via disparate systems. OmniAuth strategies
+on the wiki for this project.
+One strategy, called Developer, is included with OmniAuth and provides
+Each OmniAuth strategy is a Rack Middleware. That means that you can use
+this:
+
+specific initialization requirements.
+Integrating OmniAuth Into Your Application
+you need only to redirect users to /auth/:provider, where :provider
+is the name of the strategy (for example, developer or twitter).
+environment of a request to /auth/:provider/callback. This hash
+glean from the utilized strategy. You should set up an endpoint in your
+
+authenticated user including a unique id, the strategy they just used
+hash might contain, see the Auth Hash Schema wiki page.
+Logging
+
+Resources
+The OmniAuth Wiki has
+actively maintained in-depth documentation for OmniAuth. It should be
+OmniAuth, how it works, and how to use it.
+OmniAuth is tested under 1.8.7, 1.9.2, 1.9.3, 2.0.0, JRuby (1.8 mode), and Rubinius
+(1.8 and 1.9 modes).
+
+Copyright (c) 2010-2013 Michael Bleigh and Intridea, Inc. See LICENSE for
+    Status
+      API
+    © 2013 GitHub, Inc.
+
+
+
+        Features
+          public
+          /
+          omniauth
+           Code
+             Issues
+             Wiki
+           Network
+  HTTPS clone URL
+      HTTPS,
+                Download ZIP
+    Pages
+    History
+       Page History
+  List of Strategies
+    User Docs
+List of Strategies
+Help Topics
+External Resources
+Auth Hash Schema
+Strategy Developers
+Adapting Strategies for 1.0
+Project Resources
+API Docs
+Sites Using OmniAuth
+Provider Strategies
+Please keep the list in alphabetical order.
+Provider
+Author
+Status
+Authenticate using the 500px OAuth API.
+Authenticate using the App.net OAuth 2 API.
+ArcGIS Online
+Authenticate using the ArcGIS Online OAuth2 API.
+Box
+iCoreTech, Inc.
+Authenticate to Buffer using the OAuth 2 API
+Authenticate to Buffer using the OAuth 2 API
+Authenticate to Cacoo using the OAuth 1 API
+Authenticate with Campaign Monitor using OAuth 2
+Authenticate to Cheddar using the OAuth 2 API.
+Authenticate to Clef using the OAuth 2 API.
+Authenticate to Cloudsdale using the OAuth 2 API.
+Authenticate to Cobot using the OAuth 2 API.
+Authenticate to Concur using the OAuth API.
+Authenticate to ConstantContact using the OAuth API.
+Authenticate to ConstantContact using the OAuth 2 API.
+Authenticate to Coinbase using the OAuth 2 API.
+Authenticate a Deezer user using Deezer OAuth like API.
+Authorize a Desk.com user using its OAuth 1.0a API.
+Authenticate with DeviantART through their oAuth 2 API to gain access to sta.sh
+Authenticate to the Do oAuth 2 API.
+Authenticate to the Dropbox REST API (v1).
+Authenticate to Evernote using OAuth.
+Authenticate to Exvo using OAuth.
+Authenticate to Facebook using the OAuth 2 Graph API.
+Facebook Access Token
+Authenticate to Facebook using client-provided access-token(omniauth-facebook compatible).
+Authenticate to FamilySearch using Identity v2 API (OAuth 1.0a).
+Authenticate to figshare using their OAuth API.
+Authenticate to Fitbit using their OAuth API.
+Authenticate to Flickr using OAuth.
+Authenticate to Foursquare using the OAuth 2 Graph API.
+Authenticate to FreshBooks using the OAuth API.
+No  Google
+Authenticate to Google using the original OAuth API.
+Google OAuth2
+Authenticate to Google using its OAuth 2 API.
+Google+
+Authenticate to Google+ using its OAuth 2 API.
+Google+ OAuth2
+Authenticate to Google+ using its OAuth 2 API.
+Google Apps
+Heroku
+Authenticate to Heroku using its OAuth API
+heroku
+Heroku Provider SSO
+Allow SSO from Heroku.
+Strategy for traditional login/password based authentication with OmniAuth.
+Authentication to the inBloom's API using OAuth 2.
+Khan Academy
+Authenticate to Khan Academy using OAuth 1.0
+Authenticate to Kiva.org using OAuth 1.0
+Released (Beta)
+Authenticate to Klarna using OAuth 2 API
+Authenticate to Klout using their OAuth 2 API
+Authenticate to Last.FM using it's JSON API.
+Authenticate to the Lockitron API using OAuth 2.0.
+Tatemae Consultancy
+Michigan State University
+Authenticate to Michigan State University MSUnet OAuth2 provider
+Authenticate to Mydigipass.com using OAuth 2.0.
+Authenticate to MySpace using OAuth 1.0a.
+Authenticate to nk.pl using OAuth2/OAuth API.
+Strategy for auth to Ohloh using it's OAuth 1.0a API.
+A strategy for authenticating to OpenStreetMap.
+OAuth2 strategy to  authenticate to Opinionage.
+Strategy for PayPal Access identity using OAuth
+Authenticate to Photobucket using OAuth.
+Strategy for auth to Picplz
+Strategy for auth to Pinterest
+Authenticates to QQ SNS(include TQQ and QQ-Connect).
+Authenticates to Quickbooks Online.
+Authenticate to the Rdio OAuth 1.0a API.
+Authenticate to the Renren Oauth 2 API.
+Authenticate to the CommonSense API using OAuth
+Authentication for the Shapeways API using OAuth 1.0a.
+Authentication to Shopify's API using OAuth 2.
+Authentication to Shopify API using HTTP basic method.
+Authentication to SmugMug's API using OAuth.
+Social Stream
+salesforce
+Authenticate to salesforce using it's OAuth 2 API.
+A strategy for authenticating to 37signals using its OAuth 2 API.
+Authenticate to the Tumblr OAuth API (v2)
+Authenticate to the Venmo OAuth 2 API.
+Authenticate to the Vimeo OAuth API.
+Authenticate to Yahoo Social API using OAuth.
+Authenticate a Yubikey OTP using the Yubico (or custom) API.
+Authenticate a Zendesk user by username and password.
+Developer Strategies
+Provider
+Author
+Status
+A strategy for authenticating to a CAS server.
+Http Basic
+Strategy for http basic authentication.
+A strategy for authenticating via Kerberos.
+OAuth
+An abstract strategy that allows developers to quickly implement OAuth strategies.
+An abstract strategy that allows developers to quickly implement OAuth2 strategies.
+A strategy for authenticating to OpenID.
+A strategy for authenticating via SAML.
+A strategy for authenticating through Shibboleth (SAML).
+An abstract strategy that allows developers to quickly implement XAuth strategies.
+Requested Strategies
+WebID aka FOAF+SSL, related: foafssl-ruby
+Diaspora* with configuration for different pods (i.e. wk3.org )
+
+
+      Overview
+        Download
+        Code
+        Documentation
+        Community
+          Guides Index
+                Models
+                Active Record Basics
+                Active Record Validations
+                Active Record Callbacks
+                Active Record Associations
+                Active Record Query Interface
+                Views
+                Layouts and Rendering in Rails
+                Action View Form Helpers
+                Controllers
+                Action Controller Overview
+                Rails Internationalization API
+                Action Mailer Basics
+                Rails Command Line Tools and Rake Tasks
+                Asset Pipeline
+                Creating and Customizing Rails Generators
+                Contributing to Ruby on Rails
+                Contributing to Ruby on Rails
+                API Documentation Guidelines
+                Ruby on Rails 4.0 Release Notes
+                Ruby on Rails 3.2 Release Notes
+                Ruby on Rails 3.1 Release Notes
+                Ruby on Rails 3.0 Release Notes
+                Ruby on Rails 2.3 Release Notes
+                Ruby on Rails 2.2 Release Notes
+        Contribute
+How to send and receive email within a Rails application.
+How to generate and edit an Action Mailer class and mailer view.
+How to test your Action Mailer classes.
+Sending Emails
+Auto encoding header values
+Complete List of Action Mailer Methods
+Mailer Views
+Action Mailer Layouts
+Generating URLs in Action Mailer Views
+Sending Multipart Emails
+Sending Emails with Attachments
+Sending Emails with Dynamic Delivery Options
+Sending Emails without Template Rendering
+Receiving Emails
+Action Mailer Callbacks
+Using Action Mailer Helpers
+Action Mailer Configuration
+Mailer Testing
+Intercepting Emails
+Action Mailer allows you to send emails from your application using mailer classes and views. Mailers work very similarly to controllers. They inherit from ActionMailer::Base and live in app/mailers, and they have associated views that appear in app/views.
+2 Sending Emails
+views.
+2.1.1 Create the Mailer
+create  app/mailers/user_mailer.rb
+create    app/views/user_mailer
+create    test/mailers/user_mailer_test.rb
+a directory for views, and a test.
+app/mailers, just make sure that it inherits from ActionMailer::Base:
+
+2.1.2 Edit the Mailer
+"actions" and use views to structure the content. Where a controller generates
+content like HTML to send back to the client, a Mailer creates a message to be
+delivered via email.
+app/mailers/user_mailer.rb contains an empty mailer:
+
+Let's add a method called welcome_email, that will send an email to the user's
+registered email address:
+
+Here is a quick explanation of the items presented in the preceding method. For
+Complete List of Action Mailer user-settable attributes section.
+default Hash - This is a hash of default values for any email you send from this mailer. In this case we are setting the :from header to a value for all messages in this class. This can be overridden on a per-email basis.
+mail - The actual email message, we are passing the :to and :subject headers in.
+Just like controllers, any instance variables we define in the method become
+available for use in the views.
+2.1.3 Create a Mailer View
+Create a file called welcome_email.html.erb in app/views/user_mailer/. This
+will be the template used for the email, formatted in HTML:
+
+Let's also make a text part for this email. Not all clients prefer HTML emails,
+welcome_email.text.erb in app/views/user_mailer/:
+Welcome to example.com, <%= @user.name %>
+your username is: <%= @user.login %>.
+To login to the site, just follow this link: <%= @url %>.
+When you call the mail method now, Action Mailer will detect the two templates
+(text and HTML) and automatically generate a multipart/alternative email.
+controller tell the Mailer to send an email when a user is successfully created.
+First, let's create a simple User scaffold:
+
+Now that we have a user model to play with, we will just edit the
+app/controllers/users_controller.rb make it instruct the UserMailer to deliver
+an email to the newly created user by editing the create action and inserting a
+call to UserMailer.welcome_email right after the user is successfully saved:
+
+The method welcome_email returns a Mail::Message object which can then just
+2.2 Auto encoding header values
+headers and bodies.
+self-encoding text first, please refer to the
+Mail library.
+2.3 Complete List of Action Mailer Methods
+message:
+headers - Specifies any header on the email you want. You can pass a hash of
+header field names and value pairs, or you can call headers[:field_name] =
+'value'.
+attachments - Allows you to add attachments to your email. For example,
+.
+mail - Sends the actual email itself. You can pass in headers as a hash to
+the mail method as a parameter, mail will then create an email, either plain
+text, or multipart, depending on what email templates you have defined.
+2.3.1 Adding Attachments
+Pass the file name and content and Action Mailer and the
+mime_type, set the encoding and create the attachment.
+
+different, encode your content and pass in the encoded content and encoding in a
+Hash to the attachments method.
+Pass the file name and specify headers and content and Action Mailer and Mail
+
+
+If you specify an encoding, Mail will assume that your content is already
+encoded and not try to Base64 encode it.
+2.3.2 Making Inline Attachments
+First, to tell Mail to turn an attachment into an inline attachment, you just call #inline on the attachments method within your Mailer:
+
+Then in your view, you can just reference attachments as a hash and specify
+result into the image_tag method:
+<p>Hello there, this is our image</p>
+
+As this is a standard call to image_tag you can pass in an options hash
+<p>Hello there, this is our image</p>
+
+2.3.3 Sending Email To Multiple Recipients
+It is possible to send email to one or more recipients in one email (e.g.,
+informing all admins of a new signup) by setting the list of emails to the :to
+key. The list of emails can be an array of email addresses or a single string
+with the addresses separated by commas.
+
+The same format can be used to set carbon copy (Cc:) and blind carbon copy
+(Bcc:) recipients, by using the :cc and :bcc keys respectively.
+2.3.4 Sending Email With Name
+email address in the format "Full Name <email>".
+
+2.4 Mailer Views
+Mailer views are located in the app/views/name_of_mailer_class directory. The
+welcome_email method will be in app/views/user_mailer/welcome_email.html.erb
+for the HTML version and welcome_email.text.erb for the plain text version.
+
+In this case it will look for templates at app/views/notifications with name
+templates or even render inline or text without using a template file:
+
+This will render the template 'another_template.html.erb' for the HTML part and
+use the rendered text for the text part. The render command is the same one used
+inside of Action Controller, so you can use all the same options, such as
+:text, :inline etc.
+2.5 Action Mailer Layouts
+Just like controller views, you can also have mailer layouts. The layout name
+layout.
+In order to use a different file, call layout in your mailer:
+
+Just like with controller views, use yield to render the view inside the
+layout.
+You can also pass in a layout: 'layout_name' option to the render call inside
+the format block to specify different layouts for different actions:
+
+Will render the HTML part using the my_layout.html.erb file and the text part
+2.6 Generating URLs in Action Mailer Views
+incoming request so you'll need to provide the :host parameter yourself.
+globally in config/application.rb:
+
+2.6.1 generating URLs with url_for
+You need to pass the only_path: false option when using url_for. This will
+ensure that absolute URLs are generated because the url_for view helper will,
+by default, generate relative URLs when a :host option isn't explicitly
+provided.
+
+If you did not configure the :host option globally make sure to pass it to
+
+URLs, so there is no need to pass only_path: false.
+2.6.2 generating URLs with named routes
+Email clients have no web context and so paths have no base URL to form complete
+helpers.
+If you did not configure the :host option globally make sure to pass it to the
+url helper.
+
+2.7 Sending Multipart Emails
+Action Mailer will automatically send multipart emails if you have different
+app/views/user_mailer, Action Mailer will automatically send a multipart email
+with the HTML and text versions setup as different parts.
+inside of the ActionMailer::Base.default method.
+2.8 Sending Emails with Attachments
+Attachments can be added by using the attachments method:
+
+The above will send a multipart email with an attachment, properly nested with
+multipart/alternative containing the plain text and HTML email messages.
+2.9 Sending Emails with Dynamic Delivery Options
+If you wish to override the default delivery options (e.g. SMTP credentials)
+while delivering emails, you can do this using delivery_method_options in the
+mailer action.
+
+2.10 Sending Emails without Template Rendering
+supply the email body as a string. You can achieve this using the :body
+option.  In such cases don't forget to add the :content_type option. Rails
+will default to text/plain otherwise.
+
+3 Receiving Emails
+Implement a receive method in your mailer.
+Configure your email server to forward emails from the address(es) you would
+
+Once a method called receive is defined in any mailer, Action Mailer will
+parse the raw incoming email into an email object, decode it, instantiate a new
+method. Here's an example:
+
+4 Action Mailer Callbacks
+Action Mailer allows for you to specify a before_action, after_action and
+Filters can be specified with a block or a symbol to a method in the mailer
+class similar to controllers.
+You could use a before_action to populate the mail object with defaults,
+delivery_method_options or insert default headers and attachments.
+using instance variables set in your mailer action.
+
+Mailer Filters abort further processing if body is set to a non-nil value.
+5 Using Action Mailer Helpers
+Action Mailer now just inherits from AbstractController, so you have access to
+the same generic helpers as you do in Action Controller.
+6 Action Mailer Configuration
+files (environment.rb, production.rb, etc...)
+Description
+logger
+Generates information on the mailing run if available. Can be set to nil for no logging. Compatible with both Ruby's own Logger and Log4r loggers.
+Allows detailed configuration for :smtp delivery method:
+:address - Allows you to use a remote mail server. Just change it from its default "localhost" setting.
+:port  - On the off chance that your mail server doesn't run on port 25, you can change it.
+:domain - If you need to specify a HELO domain, you can do it here.
+:user_name - If your mail server requires authentication, set the username in this setting.
+:password - If your mail server requires authentication, set the password in this setting.
+:authentication - If your mail server requires authentication, you need to specify the authentication type here. This is a symbol and one of :plain, :login, :cram_md5.
+:enable_starttls_auto - Set this to false if there is a problem with your server certificate that you cannot resolve.
+Allows you to override options for the :sendmail delivery method.
+:location - The location of the sendmail executable. Defaults to /usr/sbin/sendmail.
+:arguments - The command line arguments to be passed to sendmail. Defaults to -i -t.
+Whether or not errors should be raised if the email fails to be delivered. This only works if the external email server is configured for immediate delivery.
+Defines a delivery method. Possible values are :smtp (default), :sendmail, :file and :test.
+Keeps an array of all the emails sent out through the Action Mailer with delivery_method :test. Most useful for unit and functional testing.
+Allows you to set default values for the mail method options (:from, :reply_to, etc.).
+Action Mailer section in
+
+7 Mailer Testing
+You can find detailed instructions on how to test your mailers in the
+testing guide.
+8 Intercepting Emails
+delivered. Fortunately Action Mailer provides hooks to intercept every
+email. You can register an interceptor to make modifications to mail messages
+Before the interceptor can do its job you need to register it with the Action
+Mailer framework. You can do this in an initializer file
+config/initializers/sandbox_email_interceptor.rb
+ActionMailer::Base.register_interceptor(SandboxEmailInterceptor) if Rails.env.staging?
+production like server but for testing purposes. You can read
+Creating Rails environments
+          docrails if you plan to submit
+          Please do add any missing documentation for master. Check the
+          for style and conventions.
+          documentation is very welcome in the rubyonrails-docs mailing list.
+
+share|improve this answer
+    draft discarded
+
+                 data
+                    jobs
+                    advertising info
+                    contact us
+                        Super User
+                        Web Applications
+                        Unix & Linux
+                        Ask Different (Apple)
+                        User Experience
+                                more (13)
+                        Science Fiction & Fantasy
+                        Seasoned Advice (cooking)
+                        Home Improvement
+                                more (13)
+                English Language & Usage
+                        Mi Yodeya (Judaism)
+                        Arqade (gaming)
+                                more (21)
+                        Cross Validated (stats)
+                                more (7)
+                        Meta Stack Overflow
+                with attribution required
+share|improve this answer
+Note:
+share|improve this question
+            edited Nov 17 '11 at 22:54
+            Andrew Grimm18.8k955121
+        accepted
+Note:
+share|improve this question
+            edited Nov 17 '11 at 22:54
+            Andrew Grimm18.8k955121
+        accepted
+
+
+ |
+                    log in
+ |
+ |
+                            Tags
+                            Users
+
+ |
+                    log in
+ |
+ |
+                            Tags
+                            Users
+
+favorite
+         Post as a guest
+                    Name
+					tagged
+	Linked
+related
+
+
+    draft discarded
+
+                 data
+                    jobs
+                    advertising info
+                    contact us
+                        Super User
+                        Web Applications
+                        Unix & Linux
+                        Ask Different (Apple)
+                        User Experience
+                                more (13)
+                        Science Fiction & Fantasy
+                        Seasoned Advice (cooking)
+                        Home Improvement
+                                more (13)
+                English Language & Usage
+                        Mi Yodeya (Judaism)
+                        Arqade (gaming)
+                                more (21)
+                        Cross Validated (stats)
+                                more (7)
+                        Meta Stack Overflow
+                with attribution required
+share|improve this answer
+    draft discarded
+
+                 data
+                    jobs
+                    advertising info
+                    contact us
+                        Super User
+                        Web Applications
+                        Unix & Linux
+                        Ask Different (Apple)
+                        User Experience
+                                more (13)
+                        Science Fiction & Fantasy
+                        Seasoned Advice (cooking)
+                        Home Improvement
+                                more (13)
+                English Language & Usage
+                        Mi Yodeya (Judaism)
+                        Arqade (gaming)
+                                more (21)
+                        Cross Validated (stats)
+                                more (7)
+                        Meta Stack Overflow
+                with attribution required
+
+
+
+     He rummaged  in  his pocket. He had no  change and  had to  break a new
+bill. Then he stood in the  doorway  and waited for the  cab to drive  away.
+Buzzard's  cottage wasn't too bad: two stories,  a glassed-in veranda with a
+pool table, a well-tended garden, a greenhouse, and a white gazebo under the
+apple trees. A  filigree iron fence painted  light green  surrounded it ail.
+Redrick pushed the bell several times, the gate swung open with a creak, and
+Redrick slowly moved up  the shady path, with  rose bushes planted along the
+edges. Hamster was already standing on the porch. He was gnarled, black, and
+trembling with the desire to be of service. Impatiently  he turned sideways,
+lowered  one trembling  leg  in  search  of support,  steadied  himself, and
+dragged the other foot to meet its mate. His right arm shook convulsively in
+Redrick's direction, as if to say, coming, coming, any minute.
+     "Hey, Red!" a woman's voice called from the garden.
+     Redrick turned  his head and saw  bare  tanned shoulders, a  bright red
+mouth, and a waving hand among  the greenery next to the lacy  white roof of
+the gazebo. He nodded to Hamster, turned from the path, and breaking through
+the rose bushes, headed for the gazebo along the soft green grass.
+     A large red mat was  spread on the lawn, and Dina Burbridge was sitting
+regally on  it with a glass in her hand and a miniscule  bathing suit on her
+body; a book  with a bright cover  lay on the mat and an  ice bucket with  a
+slender bottle neck peering over the edge sat in the shade nearby.
+     "Hi, Red!" Dina Burbridge said, greeting him with a wave  of the glass.
+"Where's the old man? Don't tell me he's messed up again?"
+     Redrick stood over her with the briefcase in his hands behind his back.
+Yes, Buzzard  sure managed to  wish  himself  up some marvelous children out
+there  in  the  Zone.  She was all  silk and satin, firm and full, flawless,
+without a single unnecessary wrinkle - hundred- twenty pounds of sugar-candy
+flesh, and emerald eyes that had an inner  glow, a large wet mouth  and even
+white  teeth, and raven hair, shining in the  sun and carelessly tossed over
+one shoulder. The sun  was caressing her, pouring from her  shoulders to her
+belly and hips, leaving deep  shadows between  her almost  naked breasts. He
+stood above  her and looked her over  openly,  and  she  looked up  at  him,
+laughing understandingly, and then  raised  the  glass to her lips  and took
+several sips.
+     "You  want?" she asked, licking her  lips. She waited just  long enough
+for him to get the double entendre and then handed him the glass.
+     He turned and looked  until he  found a chaise longue in the  shade. He
+sat down and stretched his legs.
+     "Burbridge is in the hospital," he said. "They're going to amputate his
+legs."
+     Still smiling, she looked at him with one eye. The other was covered by
+the  heavy hair that fell over  her shoulder. But her  smile  had  frozen--a
+sugary  grin on  a tan face. Then  she swirled the glass, listening  to  the
+tinkle of the ice cubes.
+     "Both legs?"
+     "Both. Maybe below the knees, maybe above."
+     She  put down  the  glass and pushed  back her  hair. She was no longer
+smiling.
+     "Too bad," she said. "And that means you...."
+     Dina Burbridge was the one person he could have told how it happened in
+all the details. He could have even told her how they drove back,  his brass
+knuckles ready, and how Burbridge had begged --not for himself even, but for
+the children, for her and for Archie, and  promised him the Golden Ball. But
+he didn't tell her. He pulled out a pack of money from his breast pocket and
+tossed  it onto the red mat right  at her long naked  legs. The notes fanned
+out in a rainbow.  Dina absentmindedly picked up several  and examined them,
+as though she had never seen one before but wasn't that interested.
+     "This is the last earnings, then," she said.
+     Redrick leaned over  from the chaise longue  and pulled the bottle from
+the ice  bucket. He looked  at the  label. Water was dripping along the dark
+glass and Redrick held the bottle  away from  himself, so as not  to drip on
+his pants. He did not  like expensive whiskey, but he could force himself to
+have  a slug at a time like this. He was just about to put the bottle to his
+mouth  when he was stopped  by indistinct sounds of protestation behind him.
+He looked around and saw that Hamster was painfully dragging his feet across
+the lawn, holding  a glass of clear liquid in both hands.  The exertion  was
+making  the sweat pour off his  dark wooly head, and his  bloodshot eyes had
+practically  popped  out of their  sockets.  When he saw  that  Redrick  was
+looking at him  he extended the  glass  in  despair  and sort of  mooed  and
+howled, opening his toothless mouth ineffectually.
+     "I'll wait, I'll  wait," Redrick said and shoved the bottle back in the
+bucket.
+     Hamster  finally limped over, gave  Redrick the glass, and  patted  his
+shoulder shyly with his arthritic hand.
+     "Thanks, Dixon," Redrick said seriously. "That's just what I need right
+now. As usual, you're right on top of things."
+     And  while  Hamster  shook his  head in embarrassment  and  rapture and
+convulsively slapped  himself on  the  hip with his good arm, Redrick raised
+the glass, nodded to him, and gulped down half. Then he looked at Dina.
+     "You want?" he asked meaning the glass.
+     She  did not reply. She was  folding  a  bill in half and  in half once
+again, and then again.
+     "Cut it out," he said. "You won't be lost. Your old man...."
+     She interrupted him.
+     "And  so  you  dragged him out,"  she said. She wasn't asking, she  was
+stating  a  fact. "You  carried him, you jerk, through the  whole  Zone, you
+redheaded cretin, you dragged that bastard  on your back- bone, you ass. You
+blew an opportunity like that."
+     He was watching her, his glass forgotten. She got up and stood in front
+of  him,  walking over the scattered money, and stopped, her  clenched fists
+jammed into her smooth hip, blocking out the  entire  world for him with her
+marvelous body smelling of perfume and sweet sweat.
+     "He's got all  of you idiots wrapped around his finger.  He'll walk all
+over  your  bones.  rust wait and see, he'll walk  on your  thick skulls  on
+crutches.  He'll show you the meaning of  brotherly love and mercy!" She was
+screaming.  "I'll bet  he promised you the  Golden Ball, right? The map, the
+traps, right?  Jerk!  I can see by your dumb  face  that he  did! Just wait,
+he'll give you  a map. Lord have  mercy on the soul  of  the redheaded  fool
+Redrick Schuhart."
+     Redrick  got up slowly and slapped her face hard. She shut up,  sank to
+the grass, and buried her face in her hands.
+     "You fool ... Red," she muttered. "To blow an opportunity like that."
+     Redrick  looked down at her and  finished the  vodka. He  thrust it  at
+Hamster without looking  at him. There was  nothing to talk about. Some fine
+kids Burbridge conjured up in the Zone. Loving and respectful.
+     He went  into the street  and hailed a cab. He told the driver to go to
+the  Borscht. He  had to  finish  up  his affairs. He was  dying for  sleep,
+everything was swimming before his eyes, and  he fell asleep in the cab, his
+body slumped over the briefcase, and awoke only when the driver shook him.
+     "We're here, mister.
+     "Where are we?" he looked around. "I told you the bank.
+     "No way, buddy. You said the Borscht. Here's the Borscht."
+     "OK," Redrick grumbled "I must have dreamed it."
+     He paid up and got out, barely able to move his heavy legs. The asphalt
+was steaming in the sun,  and it was very  hot. Redrick realized that he was
+soaked, that there was  a  bad taste  in  his mouth, and that his eyes  were
+tearing. He  looked around before going in. As usual at this time of day the
+street was  deserted.  Businesses weren't  open  yet,  and  the Borscht  was
+supposed to  be  closed  too, but Ernest was at  his  post  already,  wiping
+glasses and giving dirty  looks to the trio  sopping up beer at  the  corner
+table. The chairs had not been  removed from the other tables. An unfamiliar
+porter in a white  jacket was mopping  the floor and  another was struggling
+with  a  case  of  beer behind Ernest. Redrick  went up to the  bar, put the
+briefcase on the bar, and said hello. Ernest muttered something that was not
+exactly welcoming.
+     "Give me a beer," Redrick said and yawned convulsively.
+     Ernest  slammed an empty  mug on the table, grabbed  a  bottle from the
+refrigerator, opened  it, and upended it over the mug. Redrick, covering his
+mouth with his hand, stared at Ernest's  hand. It was  trembling. The bottle
+hit  the edge  of the mug several times. Redrick looked up at Ernest's face.
+His heavy eyelids were  lowered, his puffy mouth twisted, and his fat cheeks
+drooping. The porter was mopping right under Redrick's feet, the guys in the
+corner were arguing loudly over  the races, and  the other porter  with  the
+crates  backed into  Ernest  so  hard that  he reeled.  The  man  mumbled an
+apology. Ernest spoke in a cramped voice.
+     "Did you bring it?"
+     "Bring what?" Redrick looked over his  shoulder. One of  the guys stood
+up  lazily and went  to the  door. He stopped  in  the  doorway  to  light a
+cigarette.
+     "Let's go  talk,"  Ernest  said. The porter with the  mop was  now also
+between Redrick and  the door. A big black man, along the lines  of Gutalin,
+but twice as broad.
+     "Let's  go," Redrick said and  picked up the briefcase. He didn't  feel
+sleepy anymore, in either eye.
+     He went behind the bar and squeezed past the  porter with the cases  of
+beer.  The  porter  had apparently caught  his finger.  He  was sucking  his
+fingertip and  watching Redrick. He was a big fellow, with a broken nose and
+cauliflower ears. Ernest went  into the back room, and Redrick followed him,
+because  now the three guys from the corner table were blocking the door and
+the  porter  with  the mop was  standing near the  curtains  that led to the
+storeroom.
+     In the  back room Ernest stepped  aside and sat on a chair by the wall.
+Captain  Quarterblad,  yellow  and angry, stood  up  from  the  table.  From
+somewhere on  the left a huge UN trooper appeared,  his helmet  pulled  down
+over his eyes, and quickly frisked him with his large  hands. He slowed down
+at his right pocket and extracted the brass knuckles. He prodded Redrick  in
+the captain s direction. Redrick approached the  table and set the briefcase
+in front of Captain Quarterblad.
+     "You bloodsucker," he said to Ernest.
+     Ernest raised his eyebrows and shrugged one shoulder. It was all clear.
+The two porters in the doorway were smirking, and there  were no other doors
+and the window was barred from the outside.
+     Captain  Quarterblad, his face contorted by disgust, was digging around
+with both hands in the briefcase, and  taking out the swag and Putting in on
+the table: two small empties; nine batteries; various sizes of black sprays,
+sixteen pieces in a polyethylene  package; two  perfectly preserved sponges;
+and one jar of carbonated clay....
+     "Anything in your pockets?" Captain Quarterblad asked softly.
+     "Empty them.
+     "Snakes," Redrick said. "Skunks."
+     He  pulled  out  a pack  of  bills  and flung  it  on  the table.  They
+scattered.
+     "Aha!" the captain said. "Any more?"
+     "Lousy  toads!" Redrick shouted and threw the second pack on the floor.
+"There you go. I hope you choke on it!"
+     "Very interesting," the captain said calmly. "Now pick it up."
+     "The hell I will," Redrick said, putting his hands behind his back.
+     "Your  slaves will pick it  up. You can  pick it up yourself, for all I
+care."
+     "Pick  up the money, stalker," Captain Quarterblad said without raising
+his voice, leaning his fist on the table and straining toward Redrick.
+     They  stared  at  each other for  a  few  seconds,  and  then  Redrick,
+muttering curses under his breath, crouched down,  and reluctantly set about
+picking up the money. The porters were snickering behind his back and the UN
+trooper snorted gleefully
+     "Don't snort at me!" Redrick said. "You'll lose your snot."
+     He was crawling around on his hands and knees, picking up the notes one
+by one, moving closer and closer to the dark brass  ring lying peacefully on
+the  dusty parquet floor. He turned to  get better  access. He kept shouting
+obscenities, all the ones he could  remember and ones he was making up along
+the  way. When the moment was right, he  shut up,  tensed, grabbed the ring,
+pulled it up with all his strength, and before the opened trapdoor landed on
+the floor he  had jumped head first  into  the gray  cold prison of the wine
+cellar.
+     He fell  on his hands,  somersaulted,  jumped up, and ran hunched over,
+seeing  nothing, counting on his memory and luck, into the narrow passageway
+between cases of  bottles, knocking them over as he went past, hearing  them
+fall  and  shatter  in the  passage behind  him.  Slipping, he  ran  up some
+invisible steps, threw his body against the  door with its rusty hinges, and
+found himself  in Ernest's garage. He  was shaking and  panting,  there were
+bloody spots swimming before his eyes and his heart was beating heavily with
+strong jolts right in his throat, but  he did not stop  for a second. He ran
+to the far corner, and scraping his hands, tore into the mountain of garbage
+that hid the place  where the boards had been removed  from the wall. He lay
+down on his stomach and  crawled through, hearing his jacket tear,  and when
+he was out in the narrow courtyard he crouched down behind the garbage cans,
+pulled off his jacket, threw away  his tie, gave  himself a quick once-over,
+brushed  off his pants, straightened up, and ran into the yard. He dove into
+a low  smelly tunnel that led  to the  next  courtyard. He  listened for the
+whine of the police sirens as he ran, but there weren't any yet,  and he ran
+faster, scaring playing children, dodging  hanging laundry, crawling through
+holes in rotten  fences-trying to get  out  of the neighborhood as  fast  as
+possible, before  Captain  Quarterblad could cordon it off. He knew the area
+very  well.  He  had played  in all  the  yards and cellars,  the  abandoned
+laundries, and the  coal cellars. He  had plenty  of acquaintances and  even
+friends here, and under different circumstances he would have had no trouble
+in hiding out,  even  for a week, in the neighborhood. But  he hadn't made a
+daring escape from arrest under Captain Quarterblad's  very  nose, adding an
+easy twelve months to his sentence, for that.
+     He was very lucky. On Seventh Street a  parade  of some brother hood or
+other was making raucous progress down the street. Two hundred of them, just
+as disheveled and  filthy as he was. Some  looked  worse, as though they had
+spent the evening crawling through holes in fences, spilling the contents of
+garbage cans on themselves, maybe after having spent the night rowdily  in a
+coal bin.  He ducked out  of  a doorway into the crowd,  cutting  across it,
+pushing and shoving, stepping  on feet,  getting  an occasional  fist in his
+face, and returning the  favor, until he broke out on the other  side of the
+street and ducked into another  doorway.  Just then  the familiar disgusting
+wail of the  patrol cars resounded, and the  parade came to a grinding halt,
+folding up like  an accordion. But he was in  a different neighborhood  now,
+and Captain Quarterblad had no way of knowing which one.
+     He approached his own garage from the side of the radio and electronics
+store, and he had to  wait  while the workmen  loaded a van  with television
+sets. He  made  himself  comfortable in  the  ragged  lilac  bushes  by  the
+windowless side  of the  neighboring  houses,  caught his  breath and  had a
+cigarette. He smoked greedily, crouching down and leaning against tile rough
+fireproof wall, touching his cheek from time to time,  trying to  still  the
+nervous tie. He  thought and  thought  and  thought. When the  van  with the
+workers  pulled away honking into  the driveway,  he laughed and said softly
+after them: "Thanks,  boys, you held up this fool ... and let me  think." He
+started  moving quickly, but without  rushing, cleverly and  premeditatedly,
+like he worked in the Zone.
+     He  entered  his garage through the hidden  passage, noiselessly lifted
+the old seat, carefully pulled the roll of paper from the bag in the basket,
+and slipped it  inside his shirt. He took an old worn leather jacket from  a
+hook, found a greasy cap in the corner,  and pulled it down  over  his eyes.
+The cracks in the door  let narrow rays of light with  dancing dust into the
+gloomy garage, and kids were yelling and playing outside. As he was leaving,
+he heard his daughter's voice. He  put his eye against the widest  crack and
+watched Monkey wave two balloons and  run around the swings. Three old women
+with knitting  in  their laps were  sitting  on a nearby bench, watching her
+with  pursed lips. Exchanging  their lousy opinions, the dried-up  hags. The
+kids were  fine, playing with her as though she were just like them.  It was
+worth all the bribery--he  bull;  them a slide, and  a doll house,  and  the
+swings--and  the bench  that  the old biddies were on. "All right, he  said,
+tore himself away  from the crack,  looked around the garage one  more time,
+and crawled into the hole.
+     In the  southwest part of town, near the abandoned gas  station  at the
+end  of  Miner Street, there was a  phone  booth. God only knew who used  it
+nowadays--all the houses around it were  bearded up  and beyond  it  was the
+seemingly endless empty lot that used  to be the town dump. Redrick sat down
+in the  shade  of the booth and stuck  his hand  into the crack below it. He
+felt the dusty wax paper  and the  handle of the gun wrapped in it; the lead
+box of bullets was there, too, as well as the bag with the bracelets and the
+old wallet with fake  documents. His hiding place was in order. Then he took
+off his jacket and cap  and felt inside his shirt.  He sat  for a minute  or
+more, hefting  in  his hand the porcelain container and the  invincible  and
+inevitable death it contained. And he felt the nervous tic come back.
+     "Schuhart," he  muttered, not hearing  his  own  voice,  "what are  you
+doing, you snake? You scum, they can kill us all with  this thing."  He held
+his  twitching  cheek,  but  it didn't help. "Bastards,"  he said about  the
+workers who had been loading the TV sets. "You got  in my way. I  would have
+thrown it back into the Zone, the bitch, and it would have been all over.
+     He  looked  around sadly. The hot air was shimmering over  the  cracked
+cement, the hoarded-up windows looked at him gloomily, and tumbleweed rolled
+around the lot. He was alone.
+     "All right," he said decisively. "Every man for himself, only God takes
+care of everybody. I've had it."
+     Hurrying, so as not to change his  mind,  he stuffed the container into
+the cap, and wrapped  the cap  in the jacket. Then he got On his knees,  and
+leaned against the booth. It moved. The bulky package fit  in the  bottom of
+the pit under the  booth, with  room  to  spare.  He carefully  replaced the
+booth, shook it to  see  how steady  it  was, and got up,  brushing off  his
+hands.
+     "That's it. It's settled."
+     He got into the heat of the phone booth, deposited a coin, and dialed.
+     "Guta," he said. "Please, don't worry. They caught  me again." He could
+hear  her shuddering sigh. He quickly added:  "It's  a minor offense, six to
+eight months, with  visiting  rights.  We'll manage. And  you'll have money,
+they'll send it  to you." She was still silent. "To-  morrow morning they'll
+call you down to the command post, we'll see each other then. Bring Monkey."
+     "Will there be a search?" she asked.
+     "Let them.  The house is clean. Don't  worry, keep  your tail  up-- you
+know,  bright-eyed  and  bushy-tailed.  You  married  a  stalker,  so  don't
+complain. See you tomorrow. And  remember, I didn't call. I kiss your little
+nose."
+     He hung up  abruptly and stood  for a few seconds, eyes shut and  teeth
+clenched so  tightly there  was  a tingling  in his  ears. Then he deposited
+another coin and dialed another number.
+     "Listening," said Throaty.
+     "It's Schuhart. Listen carefully and don't interrupt."
+     "Schuhart? What Schuhart?" asked Throaty in a natural manner.
+     "Don't interrupt, I said! They caught me, I  ran, and I'm going to turn
+myself in now. I'm going to get  two and a half or three years. My wife will
+be penniless. You take care  of her. So that  she needs nothing, understand?
+Understand, I said?"
+     "Go on," said Throaty.
+     "Not far from the place where we first met, there's a phone booth. It's
+the only one, you won't mistake it. The  porcelain is under it.  If you want
+it,  take it, if you  don't, don't. But my wife must be  taken  care of.  We
+still have many years of  playing together. If I come back and find out  you
+double-crossed me ... I don't suggest that you do. Understand?"
+     "I understand  everything," said Throaty. "Thanks." After  a  pause, he
+asked: "Maybe you want a lawyer?"
+     "No," said Redrick. "Every last cent goes to my wife. My regards."
+     He  hung up, looked  around, dug his hands into his pants pockets,  and
+slowly went up Miner Street between the empty, bearded-up houses.
+
+3. RICHARD  H.  NOONAN,  AGE  51,
+
+
+
+ SUPERVISOR  OF  ELECTRONIC EQUIPMENT
+SUPPLIES FOR THE HARMONT BRANCH OF THE IIEC
+
+     Richard  H. Noonan was sitting at the desk in his study doodling on the
+legal size pad. He was  also smiling sympathetically, nodding his bald head,
+and not listening to  his visitor.  He was simply  waiting  for  a telephone
+call, and his visitor, Dr. Pilman, was lazily  lecturing him.  Or  imagining
+that  he  was  lecturing  him. Or trying  to  convince  himself that  he was
+lecturing him.
+     "We'll keep  all that  in  mind,"  Noonan  finally said,  crossing  out
+another group of five lines and flipping down the pad's cover. "It really is
+shocking."
+     Valentine's slender  hand neatly flicked the  ashes  from his cigarette
+into the ashtray.
+     "And what precisely will you keep in mind?" he inquired politely.
+     "Why, everything that  you  said," Noonan answered  cheerfully, leaning
+back in his armchair. "To the very last word."
+     "And what did I say?"
+     "That  doesn't  matter," Noonan  said. "We'll keep  whatever you say in
+mind."
+     Valentine (Dr. Valentine Pilman, Nobel  Prize winner)  was  sitting  in
+front  of him  in a deep armchair. He was small, delicate,  and neat.  There
+wasn't  a  stain on  his  suede  jacket  or  a  wrinkle in his  trousers.  A
+blindingly  white  shirt,  a  severe  solid-colored  tie,  shining shoes.  A
+malicious smile on  his thin pale lips and enormous  dark glasses  over  his
+eyes. His low broad forehead was topped with a bristly crewcut.
+     "In  my opinion, you're being paid  a fantastic salary for nothing," he
+said. "And on top of that, in my opinion, you're a saboteur as well, Dick."
+     "Shhhhhh!" Noonan whispered. "For God's sake, not so loud."
+     "Actually,"  Valentine  continued, "I've been  watching you for  a long
+time. In my opinion, you don't work at all."
+     "Just a minute here!"  Noonan interrupted  and waved his pink finger at
+him.  "What  do you  mean I don't work? Is there  even one replacement order
+that hasn't been handled?"
+     "I don't know," Valentine said and flicked his ash again. '.We get good
+equipment  and we get bad equipment.  We get the good  stuff more often, but
+what you have to do with it I'm sure I don't know."
+     "Well, if it weren't for me," Noonan countered,  "the  good stuff would
+be  much rarer.  And besides, you scientists  are always breaking  the  good
+equipment, and then calling  for a replacement, and who covers for you then?
+For example...."
+     The phone rang and Noonan broke off and grabbed the receiver.
+     "Mr. Noonan?" the secretary asked "Mr. Lemchen again."
+     "Put him on."
+     Valentine got up,  brought two  fingers  to  his  forehead as a sign of
+farewell, and went out. Small, straight, and well-proportioned.
+     "Mr. Noonan?" the familiar drawling voice spoke in the phone.
+     "I'm listening."
+     "You're not easy to reach at work, Mr. Noonan."
+     "A new shipment has arrived."
+     "Yes, know  about it  already. Mr.  Noonan, I'm  here only for  a short
+time. There are a  few  questions that  must  be  discussed  in person.  I'm
+referring to the latest contracts with Mitsubishi Denshi. The legal side."
+     "At your service."
+     "Then,  if you have no objection, be  at our offices in a half hour. Is
+that convenient?"
+     "Perfect. In a half hour."
+     Richard  Noonan  hung up,  stood, and rubbing his  plump hands,  walked
+around the office.  He even began singing some pop ditty, but broke off on a
+particularly sour  note and  jovially laughed at  himself. He picked up  his
+hat, tossed his raincoat over his arm, and went out into the reception area.
+     "Honey,"  he  said to the secretary, "I'm off to see  some clients. You
+stay here, hold the fort, as they say, and I'll  bring  you 3 present when I
+get back."
+     She blossomed. Noonan blew her a kiss and rolled out into the corridors
+of the institute. Attempts were made to stop him  a few times  -- he wangled
+out of conversations, joking, asking people to hold the fort without him, to
+keep  their cool,  and finally  emerged unscathed and  uncaught, waving  his
+unopened pass under the nose of the sergeant on duty.
+     Heavy  clouds  hung  low  over the city.  It  was  muggy and the  first
+hesitant drops  of rain were scattering  on  the sidewalk like little  black
+stars.  Spreading his coat over his head and shoulders, Noonan  trotted past
+the  long  row of cars to  his Peugeot, dove in, and tossed the coat  in the
+back seat. He took out  the round  black stick  of  the so-so from his  suit
+pocket, put  it in the jack in the dashboard, and pushed it in  to the  hilt
+with his  thumb.  He wriggled  around, getting  more  comfortable behind the
+wheel, and  pressed the accelerator pedal. The  Peugeot  silently  drove out
+into the middle  of  the street and raced toward the  exit from the Pre-Zone
+Area.
+     The rain  came  pouring down  suddenly, as  though  a bucket  had  been
+overturned in the sky. The road got slippery and the car swerved at corners.
+Noonan turned  on the wipers  and  slowed down. So, he thought, they got the
+report.  Now  they'll  be praising me. Well, I'm  all for that. I like being
+praised.  Especially  by  Mr. Lemchen himself. In spite of  himself. Strange
+isn't it? Why do we like  being praised? It doesn't get you any more  money.
+Glory? What kind of glory can we have? "He's famous: three people know about
+him now." Well, let's say four, counting Bayliss. What a funny creature  man
+is!  It seems  we  enjoy praise just  for itself. The way  children like ice
+cream. And  it's so  stupid.  How  can I  be  better in my own eyes? As if I
+didn't  know myself? Good old fat Richard H. Noonan? By  the way,  what does
+that "H" stand for? What do you know  about that? And there's nobody to ask,
+either.  I can't ask  Mr. Lemchen about  it. Oh,  remember! Herbert! Richard
+Herbert Noonan. Boy, it's pouring.
+     He turned onto Central and suddenly thought how the city had grown over
+the past  few  years.  Huge skyscrapers. They're  building another  one over
+there. What will it be? Oh, the Luna Complex-- the world's best jazz,  and a
+variety show, and so on. Everything for  our  glorious  troops and our brave
+tourists, especially the elderly ones, and for the noble knights of science.
+And the suburbs are being emptied.
+     Yes, I'd like to know how this will all end. Well, ten years ago, I was
+sure  I  knew. Impenetrable police lines. DMZ  twenty miles wide. Scientists
+and soldiers, and no one else.  The horrible sore on the  face of  the earth
+blocked off. And I wasn't the only one who thought that way, either. All the
+speechifying,  all the legislation they introduced! And  now  you can't even
+remember how the universal steely  resolve melted  into a quivering pool  of
+jelly. "On the one hand, you can't not acknowledge it, and on the other, you
+can't disagree." It all began, I think, when  the stalkers first brought out
+the so-so's from the  Zone. Little batteries.  Yes, I  think that's when  it
+happened.
+     Particularly, when it was discovered that the batteries multiplied. The
+sore didn't  seem like such a sore any more.  More  like  a treasure  trove,
+Hell's temptation, Pandora's box, or the devil. They found  ways  to use it.
+Twenty years  they've been  puffing and huffing, wasting  billions, and they
+still  haven't been able  to organize their thievery. Everyone  has  his own
+little  business, and  the scientists furrow their  brows significantly  and
+portentously:  on the  one  hand, you  can't not acknowledge it, and  on the
+other, you  can't disagree. Since such and such object,  when X-rayed at  an
+angle of 18 degrees emits quasithermal electrons at an angle  of 22 degrees.
+The hell with it! I won't live to see the end of it anyway.
+     The car  was  passing Buzzard  Burbridge's  townhouse. Because  of  the
+pouring rain,  all  the  lights in  the  house were on. He could see dancing
+couples in the second-floor rooms of  the  beautiful  Dina.  Either they had
+started very early, or they were still  going  strong from last night.  That
+was the new fad in  the city-to have parties  that went on for several days.
+We  sure  are growing  hardy kids, full of endurance  and steadfast  in  the
+pursuit of their desires.
+     Noonan  stopped  the  car  in front  of an  unsightly building  with  a
+discreet sign:  "Legal offices of Korsh, Korsh, and Simak." He  took out the
+so-so and put it in his pocket,  pulled on his raincoat again, took his hat,
+and ran for the entrance. He ran past the doorman, buried in a newspaper, up
+the stairs  covered  with a worn carpet. His shoes  clattered along the dark
+corridor of the  second floor, which reeked of an  odor that he had long ago
+given up trying to identify,  and he threw open  the door at the end  of the
+corridor  and  went  in.  Instead of  the secretary there  was  a  very tan,
+unfamiliar young man  at the  desk. He  was  in shirtsleeves. He was digging
+around in the  guts of some electronic device that was  set up  on  the desk
+instead of the typewriter. Richard Noonan hung up his coat and hat, smoothed
+what  was  left of his hair with both hands,  and looked inquiringly at  the
+young man. He nodded. Noonan opened the door to the office.
+     Mr. Lemchen rose heavily from the big leather  armchair in front of the
+draped window. His angular general's face was wrinkled either in a welcoming
+smile  or in displeasure with the weather or,  perhaps, in a struggle with a
+sneeze.
+     "Here you are. Come in, make yourself comfortable."
+     Noonan looked around for a  place to make himself comfortable and could
+find nothing except for a hard, straight-backed chair tucked away behind the
+desk. He  sat  on the edge of the desk. His jovial mood  was dissipating for
+some reason--he himself did not understand why. Suddenly  he understood that
+he was not going to  be praised today On  the contrary. The day of wrath, he
+thought philosophically and steeled himself for the worst.
+     "Please smoke,"  Mr. Lemchen offered,  lowering  himself back into  the
+armchair.
+     "No thank you, I don't smoke."
+     Mr. Lemchen nodded  as though his worst suspicions had been  confirmed,
+pressed  his  fingertips together  in  a steeple in  front of his face,  and
+carefully examined them for a while.
+     "I  suppose  that  we  won't be discussing the  legal  affairs  of  the
+Mitsubishi Denshi Company," he finally said.
+     That was a joke. Richard Noonan smiled readily.
+     "As you like!"
+     It was devilishly uncomfortable on the desk, and his feet did not reach
+the floor.
+     "I'm  sorry to tell you, Richard, that your report created an extremely
+favorable impression upstairs."
+     "Hmm," Noonan mumbled. Here it comes, he thought.
+     "They were even going to  recommend you for a  decoration," Mr. Lemchen
+continued. "However, I talked them into waiting  on it. And I was right." He
+tore himself  away  from  contemplating the pattern of the  ten  fingers and
+looked up at Noonan. "You ask why I behaved in such a cautious manner?"
+     "You probably had some justification," Noonan said in a dull tone.
+     "Yes, I  had.  What  are  the  results  of  your  report, Richard?  The
+Metropole  gang is liquidated. Through  your efforts.  The Green Flower gang
+was  apprehended  red-handed.  Brilliant  work. Also  yours. Quasimodo,  the
+Wandering Musicians,  and all the other gangs,  I don't remember  the names,
+disbanded because they knew the jig was up and  they would be taken any day.
+All this  really did  happen, it's all been verified by  other  sources. The
+battlefield  was cleared.  Your  victory,  Richard.  The enemy retreated  in
+disarray, suffering heavy losses. Have I given an accurate account?"
+     "In any case," Noonan said carefully, "during the last three months the
+Bow of materials  from  the  Zone  through  Harmont  has  stopped. At  least
+according to my information."
+     "The enemy has retreated, is that not so?"
+     "Well, if you insist on the metaphor, yes."
+     "No! The point is that this enemy never retreats. I know that for sure.
+In rushing a  victory  report, Richard, you have  demonstrated your  lack of
+maturity. That is why I suggested they hold off rewarding you immediately."
+     Go  blow, you and  your  awards,  thought Noonan, swinging his foot and
+glumly  watching his shiny toe.  Stick  your awards  in  the  cobwebs in the
+attic!  And all  I need is  a little  didacticism  from you. I know who  I'm
+dealing with without your lectures. Don't tell me about the enemy. Just tell
+me straight  out--when, where,  and how  I  messed up, what  those  bastards
+managed to steal, where and how they found cracks  and without the bullshit,
+I'm no raw recruit, I'm over half a century old and I'm not sitting here for
+the sake of your stupid decorations and orders.
+     "What  have  you  heard  about  the Golden Ball?" Mr. Lemchen  suddenly
+asked.
+     God, what does the Golden Ball have to do with all this, Noonan thought
+in irritation. I wish you and your indirect manner would go to hell.
+     "The Golden Ball is a legend," he reported in a dull voice. "A mythical
+artifact located  in  the  Zone in  the  shape and form of  a gold ball that
+grants human wishes."
+     "Any wishes?"
+     "According to the  canonic  version of the legend, any wish. There are,
+however, variant versions."
+     "All right. What have you heard about death lamps?"
+     "Eight years ago  a  stalker by the name  of Stefan Norman, nick- named
+Four-Eyes, brought out  an apparatus from  the  Zone that, as far  as can be
+judged, was some kind of ray-emitting system  fatal to earth organisms. This
+Four-eyes offered  the apparatus  to  the institute.  They did not agree  on
+price.  Four-eyes  reentered  the  Zone  and never  came back.  The  present
+whereabouts of  the apparatus  is unknown. People at the institute are still
+tearing  their hair  out over  it. Hugh  from the Metropole, whom  you know,
+offered any sum that could be written on a check."
+     "Is that all?" Mr. Lemchen asked.
+     "That's all." Noonan  was  blatantly looking around the room.  The room
+was boring, there was nothing to look at.
+     "All right. And what have you heard about lobster eyes?"
+     "What kind of eyes?"
+     "Lobster eyes. Lobsters. You know? With claws."  Lemchen  made clawlike
+movements with his fingers.
+     "I've never heard of them," Noonan said frowning.
+     "And what about rattling napkins?"
+     Noonan  climbed down from the desk and  stood before Lemchen,  hands in
+pockets.
+     "I don't know a thing about them. How about you?"
+     "Unfortunately, neither  do  I.  Nor  about the  lobster  eyes  or  the
+rattling napkins. Nevertheless, they exist."
+     "In my Zone?" Noonan asked.
+     "Sit  down,  sit down," Mr. Lemchen said  waving his  hand. "Our little
+talk is just starting. Sit down."
+     Noonan  walked around  the  desk and  sat on the  hard  chair with  the
+straight back.
+     What's he aiming at? he thought feverishly. What is all this new stuff?
+They probably found it in the other Zones and he's trying to make a fool out
+of  me,  the ass. He  never liked me,  the old  devil, he can't  forget  the
+limerick.
+     "Let's continue our little examination," Lemchen announced  as  he drew
+aside an edge of the drape and peered  out the window. "It's pouring. I like
+it."  He released  the  curtain, sat back in  his  chair, and looking at the
+ceiling, asked: "How's old Burbridge getting along?"
+     "Burbridge?  Buzzard Burbridge is under  surveillance. He's  a cripple,
+well-to-do.  No connection with  the  Zone. He owns  four bars and  a  dance
+school, and  he organizes  picnics  for  officers from  the garrison and for
+tourists.  His daughter Dina leads  a dissolute life.  His son  Arthur  just
+graduated from law school."
+     Mr.  Lemchen nodded in  satisfaction.  "And what is  Creon the  Maltese
+doing?"
+     "He  is  one  of  the few active  stalkers.  He was mixed  up with  the
+Quasimodo gang, and now he peddles his swag to the institute through me. I'm
+giving him a free  rein:  somebody  will pick him off sooner or later.  He's
+been drinking a lot lately, and I'm afraid he won't last too long."
+     "Contact with Burbridge?"
+     "He's courting Dina. No success."
+     "Very good," Mr. Lemchen said. "What do you hear about Red Schuhart?"
+     "He got  out of  prison last month. No financial difficulties. He tried
+to emigrate,  but he  has. .  .  ."  Noonan was silent. "Well, he has family
+problems. He has no time for the Zone."
+     "Is that all?"
+     "That's all."
+     "Not much," Mr. Lemchen said. "How are things with Lucky Carter?"
+     "He hasn't been a stalker for many years. He sells used cars and he has
+a  shop that converts cars to run on so-so's.  Four kids, his wife died last
+year. Has a mother-in-law."
+     Lemchen nodded.
+     "Well,  who  have I forgotten of the  oldsters?" he  asked in  a kindly
+tone.
+     "You  forgot  Jonathan Miles,  known  as Cactus.  He's in the hospital,
+dying of cancer. And you forgot Gutalin."
+     "Yes, yes, what about Gutalin?"
+     "He's still the same. He has a gang of three men. They go into the Zone
+for  days  at a  time,  destroying everything  they  come  across.  His  old
+organization, the Fighting Angels, broke up."
+     "Why?"
+     "Well, as you recall,  they used to buy up swag and  Gutalin would take
+it back into the Zone. The devil's  things to the devil. Now there's nothing
+to  buy, and besides, the new  director of  the institute  got the  cops  on
+them."
+     "I understand," Mr. Lemchen said. "What about the young ones?"
+     "Well,  the  young ones, they  come  and go. There are five or six with
+some  experience, but lately there's  been  no one  to fence  the  swag  and
+they're lost. I'm training them little by little.  I think that stalking has
+almost disappeared  in my Zone, chief. The old  ones are retired,  the young
+ones don't know how, and  the  prestige of the trade is slipping. Technology
+is taking over. Now there are robot stalkers."
+     "Yes, yes,  I've  heard about that.  But the machines  use up too  much
+energy. Or am I mistaken?"
+     "It's just a question of time. They'll be worth it soon."
+     "How soon?"
+     "Five or six years."
+     Mr. Lemchen nodded again.
+     "By  the  way you  probably  don't  know  that  the enemy  has  started
+employing the automated stalkers?"
+     "In my Zone?" Noonan asked, on guard.
+     "In  yours,  too.  They  base themselves  in  Rexopolis,  transfer  the
+equipment by helicopter  over the mountains  to Snake Canyon, to Black Lake,
+and the foothills of Mount Boulder."
+     "But that's the periphery of the Zone," Noonan said suspiciously.
+     "It's empty there. What could they find?"
+     "Little,  very  little. But they find it. Anyway, I was  just informing
+you, it  doesn't  concern  you.  Let's recapitulate.  There  are  almost  no
+professional  stalkers left  in  Harmont. The ones  who have  stayed have no
+relationship to the Zone  any more. The young ones are lost and undergoing a
+process  of being  tamed.  The enemy is shattered, scattered,  and lying low
+somewhere licking his  wounds. There is no  swag,  and when it does  appear,
+there's nobody to  sell it to.  The  illegal removal of  material  from  the
+Harmont Zone ceased three months ago. Correct?"
+     Noonan  was silent. Now, he  thought. Now he's going  to give it to me.
+But where was the gap? It must have been a really big one, too. Well, do it,
+you old fart! Don't drag it out.
+     "I  don't hear  your reply," Mr. Lemchen said cupping  his hand to  his
+wrinkled hairy ear.
+     "All right, chief,"  Noonan said  somberly. "Enough.  You've boiled and
+fried me, now serve me at the table."
+     Mr. Lemchen harrumphed vaguely.
+     "You  have  absolutely  nothing  to  say for  yourself,"  he said  with
+unexpected bitterness. "You stand there flapping your ears before authority,
+how do you think I  felt day before yesterday?" He interrupted himself,  got
+up,  and started  for  the  safe.  "In short, during  the  last two  months,
+according to the information  we have, the enemy has  received more than six
+thousand items  from the  various Zones." He stopped before the safe, patted
+its painted side, and turned  sharply toward Noonan. "Don't comfort yourself
+with  illusions!"  he   shouted.  "The   fingerprints   of   Burbridge!  The
+fingerprints of the Maltese!  The fingerprints of Ben  Halevy the Nose, whom
+you  did not  even  bother to mention! The fingerprints of Hindus Heresh and
+Pygmy Zmyg! So  that's how you're training your youths!  Bracelets! Needles!
+White  whirligigs! And  on top of  that--these lobsters' eyes, and  bitches'
+rattles, and rattling  napkins, whatever they  are! The hell with them all!"
+He interrupted  himself again,  returned to his  arm- chair, made a  steeple
+with  his fingers, and  asked politely: "What do you think about  all  this,
+Richard?"
+     Noonan mopped his neck with his handkerchief.
+     "I don't think anything about  it," he honestly  answered. "Forgive me,
+chief, I'm a little ... let me catch my breath ... Burbridge! Burbridge  has
+nothing to do with  the  Zone any more!  I know  his every step! He arranges
+picnics and  drinking  parties at lakesides. He's  hauling it  in,  he  just
+doesn't need the money. Excuse me, I  know I'm blabbing  nonsense, but I can
+assure  you  that  I haven't lost sight of Burbridge since he got out of the
+hospital."
+     "I won't keep you any  longer,"  Mr. Lemchen said.  "I'm  giving  you a
+week. Come up with some ideas as to how the material from the Zone gets into
+the hands of Burbridge--and all the others. Good- bye."
+     Noonan rose, nodded to Lemchen's profile, and still wiping his sweating
+neck,  went  out into the  reception area. The  tan  young man  was smoking,
+thoughtfully gazing into the  bowels of  the mangled  electronic  device. He
+glanced over at Noonan---his eyes were empty and seemed to gaze inward.
+     Richard Noonan shoved his  hat on his head, grabbed his rain- coat, and
+went outside. Nothing like this has ever happened to me before. His thoughts
+were confused and  rambling. I must--Ben  Halevy the Nose! He's even  gotten
+himself  a  nickname!  When? He's just a little punk, a snotty-nosed  little
+punk.  No, there's some- thing else going on! You legless  shmuck.  Buzzard,
+you really got me this time. Caught me with my pants down. How could it have
+happened?  just  like that time in  Singapore-face flat on  the  table, then
+slammed against the wall....
+     He got in the car and for some time looked around the dashboard for the
+ignition key, forgetting everything. Rain was dripping from his hat onto his
+lap.  He took it off and tossed  it into the back without  looking. Rain was
+streaming across the windshield,  and  Richard  Noonan  thought that  it was
+keeping him from  understanding  what  his next step should be.  He  punched
+himself in  the  head. He felt  better. He immediately remembered that there
+was  no  key and couldn't  be any because the so-so  was in his  pocket. The
+permanent battery. And  you have to take  it out  of your pocket, dummy, and
+stick  it  into  the  jack,  and  then  at  least  you'll be  able  to drive
+somewhere-somewhere  far away from this building where the  old bastard  was
+probably watching from a window.
+     Noonan's hand froze as it was reaching for the so-so. Now I know who to
+begin with. I'll  begin with  him, oh how I'll begin with him. Nobody's ever
+begun with anybody the way I'll begin with him. And it'll be  a pleasure. He
+turned on the wipers  and drove down  the  avenue, seeing  almost nothing in
+front of him, but slowly  calming down. All right. Let  it be like it was in
+Singapore.  After  all, it ended  well in Singapore. So what, I got my  face
+slammed down on the table one lousy time! It could have been worse. It could
+have been some other part of me and it could  have been something with nails
+in  it instead of a table. All right, let's stay  on the  track. Where's  my
+little establishment?  Can't see a  damn  thing.  Ah, here it is.  It wasn't
+business hours, but the Five Minutes was as lit up as the Metropole. Shaking
+himself like a dog  coming  out of  the  water,  Richard Noonan entered  the
+brightly  lit room that reeked of tobacco, perfume, and stale champagne. Old
+Penny, not in uniform yet, was sitting  at the counter eating something, his
+fork in his fist. Spreading out her  huge breasts  on  the counter among the
+empty glasses,  Ma- dame watched him eat.  The room had not yet been cleaned
+up from last night.  When Noonan walked in, Madame turned her broad, heavily
+made-up face toward him.  It was  angry at first, but  immediately dissolved
+into a professional smile.
+     "Hi!" she  said  in her  deep  voice.  "Mr. Noonan himself! Missed  the
+girls?"
+     Benny went on eating; he was as deaf as a doornail.
+     "Greetings,  old lady! What do I need with the girls when I have a real
+woman in front of me?"
+     Benny  finally  noticed him. His horrible face, covered  with  blue and
+purple scars, contorted into a welcoming smile.
+     "Hello, boss! Came in out of the rain?"
+     Noonan smiled in return and waved. He did  not like talking with Benny:
+he had to shout all the time.
+     "Where's my manager, folks?" he asked.
+     "in his room," Madame answered. "He has to pay the taxes tomorrow.
+     "Oh, those taxes!  All  right. Madame, please fix my favorite. I'll  be
+right back."
+     Stepping soundlessly on the thick synthetic carpeting, he went down the
+hallway past the draped  doorways of the  cubicles--a picture of some flower
+painted  on the wall  next to each one--turned  into  a  quiet dead end, and
+opened the leather-covered door without knocking.
+     Mosul Kitty sat behind  the desk, examining a painful sore  on his nose
+in the mirror. He did not give a damn that he had to pay the taxes tomorrow.
+The completely bare desk top  held only a jar with mercury salve and a glass
+with  a  clear liquid.  Mosul Kitty raised his bloodshot eyes  at Noonan and
+lumped up, dropping the mirror. Wordlessly, Noonan settled into the armchair
+opposite him and  silently watched, while  he  muttered something about  the
+damn rain and his rheumatism. Then he said:
+     "Why don't you lock the door, pal."
+     Mosul, his flat  feet slapping the  floor, ran Lip to  the door, turned
+the key, and returned  to the desk. His hairy  head towered over Noonan, and
+he stared loyally into his mouth. Noonan kept watching him through half-shut
+eyes.  For  some  reason  he remembered  that Mosul  Kitty's real  name  was
+Raphael. Mosul was famous for his huge  bony fists, purplish  and bare, that
+stuck out  from the  thick hair that covered his arms  like  sleeves. He had
+called himself Kitty because  he was convinced that that was the traditional
+name  of the  great  Mongol  kings.  Raphael. Well, Raphael baby, let's  get
+started.
+     "How are things?" he asked gently.
+     "in perfect order, boss," Raphael-Mosul replied rapidly.
+     "You smoothed over the problem at headquarters?"
+     "It cost 150. Everybody is happy."
+     "It comes out of  your pocket. It  was your fault,  pal. It should have
+been taken care of."
+     Mosul  made  a  pathetic  face  and  spread  his  hands in  a  sign  of
+submission.
+     "The parquet in the hall should be replaced," Noonan said.
+     "It will be done."
+     Noonan said nothing, puckered his lips.
+     "Swag?" he asked, lowering his voice.
+     "There's a little," Mosul replied in a low voice, too.
+     "Let's see it."
+     Mosul rushed over to the safe, took out a package, and opened it on the
+desk  in front of Noonan. Noonan felt around with one finger in the pile  of
+black sprays,  picked up a bracelet, examined it  from all sides  and put it
+back.
+     "This is all?"
+     "They don't bring any," Mosul said guiltily.
+     "They don't bring any," Noonan repeated.
+     He  aimed  carefully  and  jabbed  his  toe with  all his strength into
+Mosul's  shin. Mosul grunted  and bent  over  to grab the injured  spot, but
+immediately straightened out and stood at attention. Then  Noonan jumped up,
+grabbed  Mosul by his collar and came at him, kicking, rolling his eyes, and
+whispering obscenities. Mosul, moaning and groaning, rearing his head like a
+frightened horse, backed away from him until he fell onto the couch.
+     "Working both  sides, eh? You son of a bitch." Noonan was hissing right
+into his terrified eyes. "Buzzard Burbridge is swimming in swag and you give
+me beads wrapped in paper?" He smacked him  in the face,  trying to hit  the
+scab  on his nose. "I'll ship you off to jail. You'll be  living in  manure,
+eating dry bread. You'll curse the day  you  were born!" He punched the sore
+nose one more time. "Where does Burbridge get the swag? Why do they bring it
+to  him,  and  not to you? Who brings it? Why don't I know anything? Who are
+you working for, you filthy pig? Talk!"
+     Mosul  soundlessly opened  and shut his mouth. Noonan  let go  of  him,
+returned to the chair, and put his feet up on the desk.
+     "Well?" he said. Mosul sniffled back the blood  from his nose and said:
+"Honest, boss, what's the  matter? What  swag can Buzzard  have?  He doesn't
+have any. Nobody's got swag."
+     "What, are you going to argue with me?" Noonan asked gently, taking his
+feet off the desk.
+     "No,  no, boss,  honest," Mosul hurried to say. "Me argue  with  you? I
+wouldn't dream of it."
+     "I'm going  to get  rid of you," Noonan threatened. "You don't know how
+to work. What the hell do I need you for, you so-and-so? Guys like you are a
+dime a dozen. I need a real man for real work."
+     "Hold  on, boss," Mosul  said reasonably,  smearing blood all  over his
+face.  "Why  do  you attack  me all  of a  sudden? Let's work  this out." He
+touched his  nose  gingerly. "You say Burbridge has a  lot of  swag? I don't
+know, somebody's been lying  to  you. Nobody's got  any swag now. After all,
+only punks go into the Zone now, and they're the only ones coming out. Nope,
+boss, someone's lied to you."
+     Noonan was watching him covertly. It  looked as  if Mosul really didn't
+know a thing.  It wouldn't have paid him to lie, anyway--  Buzzard Burbridge
+didn't pay very well.
+     "These picnics, are they profitable?"
+     "The  picnics? I don't think  so. You  won't shovel  in  the money. But
+there aren't any profitable things left in town."
+     "Where are these picnics held?"
+     "Where?  You know, in different places.  By  White Mountain, at the Hot
+Springs, at Rainbow Lake."
+     "Who are the customers?"
+     "The customers?" Mosul sniffed, blinked, and spoke confidentially.
+     "If you're planning to get into the business yourself, boss, I wouldn't
+recommend it. You won't make much up against Buzzard."
+     "Why not?"
+     "Buzzard's customers are the blue helmets, one." Mosul  was ticking the
+points  off on  his fingers.  "Officers from the command post, two. Tourists
+from the Metropole, the White Lily, and the Plaza, three. Then he's got good
+advertising. Even the locals go to him. Honest, boss, it's not worth getting
+mixed up in this  business.  He  doesn't pay us that much for the girls, you
+know."
+     "The locals go to him, too?"
+     "The young people, mostly."
+     "Well, what happens on these picnics?"
+     "What  happens? We  go  there  on buses, see?  And when  we  get  there
+everything  is set up--tables, tents, music.  And  everyone lives it up. The
+officers usually go with the girls. The tourists go look at the Zone-if it's
+at the Hot Springs, the Zone is just a stone's throw away, on the other side
+of the Sulphur Gorge. Buzzard has thrown  a lot of horse bones around  there
+and they look at them through binoculars."
+     "And the locals?"
+     "The  locals?  Well, that doesn't interest the locals,  of course. They
+amuse themselves in other ways."
+     "And Burbridge?"
+     "Burbridge? Burbridge ... is like everybody else."
+     "And you?"
+     "Me? I'm like everybody else. I watch to see that the girls aren't hurt
+... and, well, like everybody else, basically."
+     "And how long does all this go on?"
+     "Depends. Three days, sometimes, sometimes a whole week."
+     "And how much does this  pleasure  trip  cost?" Noonan asked,  thinking
+about something else entirely. Mosul answered something,  but  Noonan didn't
+hear him.  That's the ticket, Noonan thought. Several days,  several nights.
+Under  those conditions, it's simply impossible to keep an eye on Burbridge,
+even  if you tried.  But still  he didn't understand. Burbridge was legless,
+and there was the gorge. No, there was something else there.
+     "Which locals are steady customers?"
+     "Locals?  I  told you, mostly  the young ones. You know, Halevy, Rajba,
+Chicken  Tsapfa, that Zmyg guy--and the Maltese  often goes.  A cute  little
+group. They call it Sunday school. Shall we go to Sunday  school,  they say.
+They concentrate on the old ladies, make pretty good money.  Some old  broad
+from Europe...."
+     "Sunday school," Noonan repeated.
+     A strange thought came to him. School. He rose.
+     "All right," he said. "The  hell with the  picnics.  That's not for us.
+But  get it straight: Buzzard has swag,  and that's our business,  pal. Look
+for it, Mosul, look for it, or I'll throw you to the dogs. Where does he get
+it, who gives it to him? Find out and we'll give twenty percent more than he
+does. Got it?"
+     "Got  it, boss." Mosul was standing, too, at attention, loyalty on  his
+blood-smeared face.
+     "Move it! Use your brains, you animal!" Noonan shouted and left.
+     Back at the bar he quickly drank his aperitif, had  a  chat with Madame
+about  the  decline  in morality, hinted that he was planning to  expand the
+operation, and lowering his voice for emphasis, asked for her advice on what
+to do about Benny-the old  guy  was getting  old, he was  deaf, his reaction
+time was off, and  he didn't get along like he used to. It  was  six already
+and he was hungry. A  thought was drilling through his brain, out of nowhere
+but at the same  time explaining a lot. Actually, a lot had become clear  by
+now anyway  and  the  mystical aura that irritated  and frightened him about
+this business  was gone. All that was left was disappointment in himself be-
+cause he had not thought of the possibility  earlier. But the most important
+thing was  the thought that kept floating in  his  head  and  giving him  no
+peace.
+     He said good-bye to Madame and shook  Penny's hand, and headed straight
+for  the Borscht. The  whole  trouble  is  that we don't  notice  the  years
+slipping  by, Noonan  thought.  The  hell with  the  years,  we don't notice
+everything changing. We know  that everything  changes,  we're  taught  from
+childhood that everything changes, and we've seen everything change with our
+own eyes  many  a time, and  yet we're totally incapable of recognizing  the
+moment  when the change comes  or else  we look for  the change in the wrong
+place. There  are new stalkers  now, created by cybernetics. The old stalker
+was a dirty,  sullen man who  crawled inch by inch through  the  Zone on his
+belly with mulish stubbornness, gathering his nest  egg. The new stalker was
+a dandy in  a silk tie, an engineer sitting a mile or so away from the Zone,
+a cigarette in his mouth, a glass with a pleasant brew at his elbow, and all
+he does is  sit and monitor  some  screens.  A salaried  gentleman.  A  very
+logical picture. So logical that any alternative just did  not come to mind.
+But there were other possibilities--the Sunday school, for one.
+     And suddenly, from nowhere,  a wave of despair engulfed him. It was all
+useless. Pointless.  My God, he thought, we won't be able  to do a thing! We
+won't  have the power  to contain  this blight, he  thought  in  horror. Not
+because we don't work  well. And not because they're smarter and more clever
+either. It's just that  that's the way the world is.  And that's the way man
+is  in this world.  If there had never been the Visitation, there would have
+been something else. Pigs always find mud.
+     The Borscht was lit up and gave  off a delicious smell. The Borscht had
+changed,  too.  No more dancing,  no more  fun. Gutalin didn't go  there any
+more, he was turned off  by it, and Redrick Schuhart probably had  stuck his
+nose in, made a face, and left. Ernest  was still in  stir and his old  lady
+finally got to  run the  place. She built up a  solid  steady clientele; the
+entire  institute lunched there, including the  senior officers.  The booths
+were cozy, the food good, the prices reasonable, and the beer bubbly. A good
+old-fashioned pub.
+     Noonan  saw Valentine Pilman  in one  of  the booths.  The laureate was
+drinking  coffee and  reading  a  magazine he  had folded  in  half.  Noonan
+approached him.
+     "May I join you?"
+     Valentine turned his dark glasses on him.
+     "Ah," he said. "Please do."
+     "Just a second, I'll wash up first." He had remembered Mosul's nose.
+     He  was well known there. When he  got back to Valentine's booth, there
+was a plate of steaming sausages  and a mug of beer--not cold and not  warm,
+just the way he liked it--on the table. Valentine put down the  magazine and
+took a sip of coffee.
+     "Listen, Valentine," Noonan said, cutting the meat. "What do you think,
+how will all this end?"
+     "What?"
+     "The  Visitation.  The  Zones,  the  stalkers, the  military-industrial
+complexes--the whole lot. How can it all end'" Valentine looked at him for a
+long time with his blind black lenses.
+     "For whom? Be specific."
+     "Well, say for our part of the planet."
+     "That depends on whether we have luck or not.  We now know that in  our
+part of the planet the Visitation left no aftereffects, for  the  most part.
+That does not rule out, of course, the possibility that in pulling all these
+chestnuts out of  the fire, we may pull  out some thing that  will make life
+impossible not only for us,  but for the  entire planet. That  would  be bad
+luck. But, you  must  admit, such  a  threat always hovers over mankind." He
+chuckled. "You see,  I've long lost the  habit  of talking  about mankind in
+general. Humanity as a whole is too fixed a system, there's no changing it."
+     "You think so? Maybe, you're right, who knows?"
+     "Be honest, Richard," Valentine said, obviously enjoying himself.
+     "What has the Visitation changed  in your life? You're a business- man.
+Now you  know there  is at least one other rational creature in the Universe
+besides man. So what?"
+     "What can I say?" Noonan was  mumbling. He was  sorry that  he had ever
+started the conversation. There was nothing to talk about.
+     "What has changed for me? Well, for several years now I've been feeling
+uneasy, insecure. All right. So  they came and left right  away. And what if
+they come again and  decide to stay? As a businessman,  I have to take these
+questions  seriously: who are they, how do  they live, what do they need? On
+the most basic level I have to think how to change my  product. I have to be
+ready. And what if I turn out to be completely superfluous in their system?"
+He livened up. "What if we are superfluous? Listen,  Valentine,  since we're
+talking about  it,  are  there any answers to these questions? Who are they,
+what did they want, will they return?"
+     "There are  answers," Valentine said, smiling. "Lots of them, take your
+pick."
+     "And what do you think yourself?"
+     "To  tell  the truth, I  never permitted myself the luxury  of thinking
+about it seriously. For me the Visitation is primarily  a  unique event that
+allows us to skip several steps in the  process  of  cognition.  Like a trip
+into the future  of  technology. Like a quantum generator ending up in Isaac
+Newton's laboratory."
+     "Newton wouldn't have understood a thing."
+     "You're wrong. Newton was a very perspicacious man."
+     "Really? Well, who cares about him anyway. What do you  think about the
+Visitation? You can answer unseriously."
+     "All right, I'll  tell you.  But I  must warn you that  your  question,
+Richard, comes under the heading of xenology. Xenology: an unnatural mixture
+of science  fiction and  formal logic. It's based on the false  premise that
+human psychology is applicable to extraterrestrial intelligent beings."
+     "Why is that false?" Noonan asked.
+     "Because  biologists  have  already  been  burned  trying to use  human
+psychology on animals. Earth animals, at that."
+     "Forgive  me,  but that's an  entirely different matter.  We're talking
+about the psychology of rational beings."
+     "Yes. And everything would be fine if we only knew what reason was.
+     "Don't we know?" Noonan was surprised.
+     "Believe it or  not, we  don't. Usually a  trivial definition  is used:
+reason is  that  part  of  man's  activity that  distinguishes  him from the
+animals. You  know,  an attempt to  distinguish the owner from  the dog  who
+understands  everything  but  just  can't  speak.   Actually,  this  trivial
+definition  gives  rise  to  rather  more  ingenious  ones.  Based on bitter
+observation of the above-mentioned human activities.  For example: reason is
+the ability of a living creature to perform unreasonable or unnatural acts."
+     "Yes,  that's about  us, about  me, and those  like  me," Noonan agreed
+bitterly.
+     "Unfortunately. Or how about this hypothetical definition.  Reason is a
+complex type of instinct  that  has  not yet formed completely. This implies
+that  instinctual behavior is always purposeful and natural. A million years
+from now our instinct will have matured and we will stop making the mistakes
+that are probably integral to  reason. And then, if  something should change
+in the universe, we  will all become extinct--precisely because we will have
+forgotten  how  to make  mistakes, that  is,  to try various approaches  not
+stipulated by an inflexible program of permitted alternatives."
+     "Somehow you make it all sound demeaning."
+     "All  right, how about another definition--a  very lofty and noble one.
+Reason  is  the  ability  to  use  the  forces  of the  environment  without
+destroying that environment." Noonan grimaced and shook his head.
+     "No, that's not about us.  How about this: 'man, as opposed to animals,
+is  a  creature  with an  undefinable  need  for  knowledge'?  I  read  that
+somewhere."
+     "So have  I,"  said Valentine. "But the whole problem with that is that
+the average man--the one you have in mind  when you talk about 'us' and 'not
+us'--very  easily manages to  overcome  this  need  for  knowledge. I  don't
+believe that need even exists. There is  a need to understand, and you don't
+need  knowledge  for that. The hypothesis  of God, for  instance,  gives  an
+incomparably  absolute  opportunity   to  understand  everything  and   know
+absolutely nothing. Give man an extremely simplified system of the world and
+explain every phenomenon  away on the basis of that system. An approach like
+that doesn't  require any  knowledge.  Just a  few  memorized formulas  pins
+so-called intuition and so-called common sense."
+     "Hold on," Noonan said. He finished his beer and set the mug noisily on
+the table. "Don't get off the track. Let's get back to  the subject on hand.
+Man meets an extraterrestrial creature. How do they find out  that  they are
+both rational creatures?"
+     "I haven't the slightest idea," Valentine said with great pleasure.
+     "Everything I've read on the subject comes down to a vicious circle. If
+they are capable of making contact, then they are rational. And  vice versa;
+if  they  are rational, they are  capable  of contact. And in general: if an
+extraterrestrial creature has the honor of possessing human psychology, then
+it is rational. Like that."
+     "There you  go.  And  I thought you boys had it  all  laid  out in neat
+cubbyholes."
+     "A monkey can put things into cubbyholes," Valentine replied.
+     "No,  wait a minute."  For some  reason,  Noonan  felt cheated. "If you
+don't  know  simple things  like that....  All right, the hell with  reason.
+Obviously, it's a real quagmire. OK. But  what about the Visitation? What do
+you think about the Visitation?"
+     "My pleasure. Imagine a picnic."
+     Noonan shuddered.
+     "What did you say?"
+     "A picnic. Picture a forest, a country road, a meadow. A car drives off
+the country road into the meadow, a group of young people get out of the car
+carrying  bottles,  baskets of food,  transistor radios,  and  cameras. They
+light Fires, pitch tents, turn on the music. In the morning  they leave. The
+animals, birds,  and insects that watched  in  horror through the long night
+creep  out  from their hiding places. And  what  do they see?  Gas  and  oil
+spilled  on the grass. Old spark  plugs and old filters strewn around. Rags,
+burnt-out  bulbs, and a  monkey wrench left behind. Oil slicks on the  pond.
+And of  course, the usual mess--apple cores, candy wrappers, charred remains
+of  the  campfire,  cans,  bottles,   somebody's  handkerchief,   somebody's
+penknife, torn newspapers, coins, faded Bowers picked in another meadow."
+     "I see. A roadside picnic."
+     "Precisely. A roadside picnic, on some road in the cosmos.  And you ask
+if they will come back."
+     "Let me have a smoke. Goddamn this pseudoscience! Somehow I imagined it
+all differently."
+     "That's your right."
+     "So does that mean they never even noticed us?"
+     "Why?"
+     "Well, anyway, didn't pay any attention to us?"
+     "You know, I wouldn't be upset if I were you."
+     Noonan inhaled, coughed, and threw away the cigarette.
+     "I don't care," he said stubbornly. "It can't be. Damn  you scientists!
+Where  do you get your contempt  for man?  Why are you always trying  to put
+mankind down?"
+     "Wait a minute," Valentine said. "Listen: 'You ask  me  what makes  man
+great?'"  he quoted.  "'That  he  re-created nature?  That  he has harnessed
+cosmic forces?  That  in  a brief time he conquered  the planet and opened a
+window  on  the universe? No! That,  despite all  this, he has  survived and
+intends to survive in the future.'"
+     There was a silence. Noonan was thinking.
+     "Don't get  depressed," Valentine  said kindly.  "The picnic is my  own
+theory. And not even a theory--just  a  picture. The serious xenologists are
+working on much more  solid  and flattering  versions for human vanity.  For
+example, that there has been no Visitation yet, that it is to come. A highly
+rational culture  threw containers with artifacts  of  its civilization onto
+Earth. They expect  us  to study  the artifacts, make  a giant technological
+leap, and send a signal in response that will show we are ready for contact.
+How do you like that one?"
+     "That's much better," Noonan said.  "I see that there are decent people
+among scientists after all."
+     "Here's another one. The Visitation has taken place, but it is not over
+by a long shot. We are in contact even as we speak, but we are riot aware of
+it.  The  visitors are  living in  the  Zones and carefully observing us and
+simultaneously preparing us for the 'cruel wonders of the future.' "
+     "Now  that I  can understand!  At least  that  explains  the mysterious
+activity in the  ruins  of  the factory.  By the  way, your  picnic  doesn't
+explain it."
+     "Why doesn't  it? One of the  girls could have forgotten  her  favorite
+wind-up teddy bear on the meadow."
+     "Just skip  it. That's some teddy bear. The earth around it is shaking!
+On the other hand, maybe it is somebody's teddy. How  about a beer? Rosalie!
+Two  beers for  the xenologists! You know, it really is  nice chatting  with
+you," he said to Valentine. "Cleaning out the old brains, like pouring Epsom
+salts under my  skull. You know, you work and work,  and lose sight of  why,
+and what will happen, and how you'll soothe your savage breast."
+     The beer came. Noonan took  a  sip, watching over the head  of foam  as
+Valentine examined his mug with a look of distaste.
+     "You don't like it?"
+     "I usually don't drink," Valentine said hesitantly.
+     "Really?"
+     "The hell with it!" Valentine moved the mug of beer away from him. "Why
+don't you order me a cognac in that case."
+     "Rosalie!" Noonan called out, finally cheering up.
+     The cognac arrived. Noonan spoke.
+     "But you really shouldn't go on like that.  I'm  not talking about your
+picnic--that's  too much--but even if we accept  the version that this  is a
+prelude to contact,  I  still don't  like it. I can understand the bracelets
+and the empties. But why  the witches'  jelly? The mosquito mange spots  and
+that disgusting fluff?"
+     "Excuse me," Valentine said, taking a slice  of lemon. "I  don't  quite
+understand your terminology. What mange?"
+     Noonan laughed.
+     "That's folklore. Stalkers' slang. Shop talk. The mosquito  mange spots
+are areas of heightened gravitation."
+     "Ah. Graviconcentrates. Directed gravity. That's something  would enjoy
+talking about for a couple of hours, but you wouldn't understand a thing."
+     "Why wouldn't I? I'm an engineer, you know.'
+     "Because I don't understand it myself. I have systems of equations, but
+no way to interpret them. Witches' jelly, is that colloidal gas?"
+     "The  very same. Did  you hear about the  catastrophe  at the  Currigan
+labs?"
+     "I heard something about it."
+     "Those idiots put a porcelain container with the  jelly into  a special
+room, highly insulated and isolated. That is, they  thought it was isolated.
+And  when they opened the container with manipulators the jelly went through
+metal  and plastic, like water through a sieve, and outside. And  everything
+it touched also turned into jelly. Thirty-five people were killed, more than
+a hundred were crippled, and the entire building was destroyed. Did you ever
+go there? Marvelously equipped place! And now the jelly has seeped down into
+the basement and the lower Boors. Some prelude to contact."
+     Valentine made a face.
+     "Yes, I know all  that. But you must agree, Richard, that  the visitors
+had nothing to do with it. How  could they have known about the existence of
+our military-industrial complexes?"
+     "They should have known," Noonan insisted.
+     "Their answer to  that would  be that the military-industrial complexes
+should have been done away with a long time ago."
+     "That's  for  sure. That's  what they  should  have taken  care  of, if
+they're so powerful."
+     "You mean you're suggesting interference in the internal affairs of the
+human race?"
+     "Hmmm,"  Noonan said.  "I guess  we're  going too  far. Let's drop  it.
+Instead, let's go back to the beginning of our discussion. How will  it  all
+end? Well, look at you, for instance, you're a scientist. Are you hoping for
+something fundamental  to come out of  the Zone, some- thing that will alter
+science, technology, our way of life?"
+     Valentine shrugged.
+     "You're barking up the wrong tree,  Richard. I don't like to indulge in
+empty fantasizing. When the subject is something serious, I prefer to revert
+to healthy careful skepticism. Based on what we've already received, a whole
+range of possibilities is raised, and I can say nothing specific about it."
+     "All  right, let's  try  another  approach.  What  do you  think you've
+already received?''
+     "You'll find this amusing--very little.  We've unearthed many miracles.
+In a few  cases, we've  even learned  how to use these  miracles for our own
+needs. A monkey pushes a red button and gets a banana, pushes a white button
+and  gets an orange, but  it  doesn't  know  how  to get bananas and oranges
+without the buttons. And it doesn't understand what relationship the buttons
+have to the fruit. Take the so-so's, for example. We've  learned  how to use
+them. We've even learned the circumstances under which they multiply through
+a process similar to cell division. But we still haven't been able to make a
+single so-so.  We don't know how they work, and judging by present evidence,
+it will be a long time before we will."
+     "I  would  put it this way. There are  objects for which we have  found
+uses. We use them, but almost certainly not the way the visitors use them. I
+am positive that in the vast majority of cases  we are hammering  nails with
+microscopes.  But at  least  we're using some  things--the  so-so's, and the
+bracelets   to   stimulate   life  processes.  And  the  various   types  of
+quasibiological masses, which have created a revolution in medicine. We have
+received new tranquilizers,  new types of mineral fertilizers, a  revolution
+in agriculture. But why am I giving you  a list! You  know this  at ]east as
+well as I--I notice  you  wear a bracelet.  Let's call this group of objects
+beneficial.  It can be  said that  mankind has  benefited from  them in some
+degree, even though it should never be forgotten that in our Euclidean world
+every stick has two ends."
+     "Undesirable applications?"
+     "Precisely. Say the use of so-so's  in the defense industry. But that's
+not  what  I'm talking about. The action of every beneficial object has been
+more or less studied  and  more or less explained. Our technology is holding
+us up In fifty years or so we'll know how to make them ourselves and then we
+can crack nuts to our hearts' content. It's  more complicated with the other
+group of objects--more complicated because  we have found no application for
+them, and their qualities within  the  framework of our present concepts are
+definitely  not  understandable. For instance, the  magnetic traps. We  know
+that they're magnetic  traps, Panov has proven it very wittily. But we don't
+know the source of  such a powerful  magnetic Field  and what  causes  their
+superstability. We  don't understand a thing about  them. We can only  weave
+fantastic theories about properties of space that we never suspected before.
+Or the K-23. What  do you call it? The pretty black beads that are  used for
+jewelry?"
+     "Black sprays."
+     "That's it, the black  sprays. That's a good name. Well, you know their
+properties.  If  you shine  a  ray  of light  into one  of  those beads, the
+transmission of  the light is delayed  and the delay  depends on  the bead's
+weight, size, and several other parameters. And the unit of light coming out
+is always smaller than the  one entering. What is this? Why? There is a wild
+theory that the black sprays are gigantic expanses of  space with properties
+different from  those of our space  and that they became curled up under the
+influence  of our space." Valentine sighed deeply. "In short, the objects in
+this group have absolutely  no applications to human life today. Even though
+from a purely scientific point  of view  they are of fundamental importance.
+They are answers  that have fallen  from  heaven to questions  that we still
+can't pose. Perhaps Sir Isaac wouldn't have figured out lasers, but he would
+at least have understood that such a thing is possible, and that  would have
+influenced his  scientific outlook  greatly. I won't go into detail, but the
+existence of such objects as  the  magnetic  traps, the K-23, and the  white
+ring has invalidated most of our recently developed theories and has brought
+forth completely new ideas. And there is still a third group."
+     "Yes," Noonan said. "The witches' jelly and other goodies."
+     "No, no.  Those fall either  into  the first  or second  category.  I'm
+talking about  objects that we  know nothing  about  or  have  only  hearsay
+information.  The things that the stalkers stole  from  under  our noses and
+sold  to  God knows  who,  or have hidden.  The  things that they don't talk
+about.  The  things that have  become  legends or  semi-  legends.  The wish
+machine, Dick the Tramp, and the jolly ghosts."
+     "Wait  a minute!  What are  those things?  I can figure  out  the  wish
+machine, but. . . ."
+     Valentine laughed.
+     "You see, we have our own shop talk, too. Dick  the  Tramp--that's  the
+hypothetical  wind-up  teddy bear wreaking havoc in  the old  plant. And the
+jolly ghost  is a type of dangerous  turbulence that occurs in some parts of
+the Zone."
+     "First I've heard of it."
+     "You understand,  Richard,  that we've been digging around in  the Zone
+for twenty  years but we don't even  know a thousandth of what it  contains.
+And  if  you want to talk  of the Zone's effect on man. ...  By the way,  it
+looks as though we'll have to add another category, the fourth group. Not of
+objects, but  of effects.  This group  has  been shamefully  neglected, even
+though  as far  as  I'm  concerned, there  are  more than  enough  facts for
+research.  And you  know, sometimes my  skin  crawls, Richard,  when I think
+about those facts." Zombies," Noonan said.
+     "What? Oh,  no, that's merely puzzling. How  can  I  put it--at  ]east,
+that's  imaginable. I mean when  suddenly for no reason  at all things start
+happening, nonphysical, nonbiological phenomena."
+     "Oh, you mean the emigrants."
+     "Exactly. Statistics is a  very precise science, you know, even  though
+it  deals  with  random  occurrences.  And  besides,  it's  an eloquent  and
+beautiful science."
+     Valentine seemed to be  tipsy. His  voice was louder,  his cheeks  were
+red, and his eyebrows had crept up high over his dark glasses, wrinkling his
+forehead into a washboard.
+     "I really like nondrinkers," Noonan said.
+     "Don't get off the subject!" Valentine said. "Listen, what  can I  tell
+you?  It's  very strange." He raised his glass, drank half in one gulp,  and
+went on.  "We don't  know what  happened to the poor Harmonites at  the very
+moment of the Visitation. But now one of them decides to emigrate. Your most
+typical man in the street. A barber. The son of a barber and the grandson of
+a barber. He moves, say,  to Detroit. He opens  up a barbershop and all hell
+breaks loose. Over ninety percent of his clients die during a year: they die
+in car crashes, fall out of windows, are cut down by gangsters  or  muggers,
+drown in  shallow  waters,  and  so  on and  so  forth. A number  of natural
+disasters hit  Detroit  and  its  suburbs. Typhoons and tornadoes, not  seen
+since eighteen-oh-something,  suddenly appear in the area. And all that kind
+of stuff. And such cataclysmic events take place in any city, any area where
+an emigrant from a Zone area settles. The number of catastrophes is directly
+proportional to the number of emigrants who have moved to the city. And note
+that this  reaction  is caused  only by emigrants who actually lived through
+the Visitation.  Those  born after  the  Visitation  have no  effect on  the
+disaster and accident statistics. You've lived  here for  ten years, but you
+moved in  after the Visitation and  it would be safe to relocate you even in
+the  Vatican.  How  can  this  be explained?  What  should  we  reject?  The
+statistics?  Or common sense?" Valentine grabbed the glass  and finished his
+drink in a gulp.
+     Richard Noonan scratched his head.
+     "Hmmm, yes. Of course,  I'd heard  all that before, but I,  uh, assumed
+that it was all, to put it  mildly, exaggerated. Really, from the  point  of
+view of our highly developed science...."
+     "Or,  for  instance,  the  mutagen  effect  of   the  Zone,"  Valentine
+interrupted. He  removed his glasses  and  stared at  Noonan  with his dark,
+myopic eyes.  "Everyone  who  spends  enough  time with the  Zone  undergoes
+changes,  both of phenotype and  genotype.  You know  what kind  of children
+stalkers can have and you know what happens to the stalkers themselves. Why?
+Where is the mutation factor? There is no radiation  in  the Zone. While the
+air and soil  in the Zone have their own  specific chemical  structure, they
+pose no mutation dangers at all. What  should I  do under  the circumstances
+--believe in sorcery? In the evil eye?"
+     "I sympathize.  But, frankly, I am much more upset by  corpses come  to
+life  than  by  your  statistics.  Especially  since  I've  never  seen  the
+statistics, but I have seen the zombies--and smelled them."
+     Valentine waved away the statement.
+     "Bah, your zombies. Richard, you should be ashamed of yourself. You are
+an  educated man, after  all. First of all, they are not corpses.  They  are
+moulages - reconstructions on the skeletons, dummies. And I assure you, from
+the point of  view  of fundamental  principles,  your  moulages  are no more
+amazing than the eternal batteries. It's just  that the so-so's violate  the
+first law of thermodynamics, and the moulages violate the second.  We're all
+cave men in one  sense or  another. We can't imagine anything scarier than a
+ghost.  But  the violation of the law of  causality is much more  terrifying
+than a  stampede  of ghosts. And all the  monsters  of  Rubenstein, or is it
+Wallenstein?"
+     "Frankenstein."
+     "Of  course. Frankenstein. Mrs. Shelley. The poet's wife. Or daughter."
+He suddenly laughed. "Our  moulages have  a curious property--autonomic life
+capability. For example, if you cut off  some part of their bodies, the part
+will live on. Separately. Without any physiological solutions to nourish it.
+They brought one like that to the  institute  recently. A lab assistant from
+Boyd told me about it."
+     Valentine laughed uproariously.
+     "Isn't  it time we headed  for home, Valentine?" Noonan asked, glancing
+at his watch. "I still have some important business."
+     "Let's go." Valentine  tried hard to insert  his face  into the glasses
+and finally had to take the frame with both hands to put  them on his  nose.
+"Do you have a car?"
+     "Yes. I'll drive you."  They paid the  check  and headed for the  door.
+Valentine kept making mock salutes,  greeting lab workers who were curiously
+watching  one of the  great men of world physics. At the door, greeting  the
+broadly smiling doorman, he  knocked off  his glasses, and all three of them
+scrambled to catch them.
+     "Tomorrow  I'm running  an  experiment.  You know,  it's an interesting
+thing...." Valentine was muttering as he climbed into the Peugeot.
+     He went on to describe the experiment.  Noonan drove him to the science
+complex.
+     They're  afraid,  too,  he  thought,  getting back  into the  car.  The
+highbrows are also scared. And  that's the way it should be.  They should be
+more  afraid  than all us regular folk  put together.  We don't understand a
+thing,  and  they  understand  how  much  they  don't.  They  look  into the
+bottomless pit and know that it's  inevitable, they  must  go  down into it.
+Their hearts catch, but they must go down, and descend they do, but how, and
+what will they find at the bottom, and most important, will  they be able to
+climb  out? Meanwhile,  we mere mortals look  the other  way,  so  to speak.
+Listen, maybe  that's how it should be. Let it all run its course, and we'll
+just get  by  on  our  own. He was right: humanity's  most  heroic  deed was
+surviving and intending to survive. But  he'd still tell  the visitors to go
+to  hell, if  he could. Why couldn't they have  had their  picnic  somewhere
+else. Like the Moon. Or Mars. You heartless trash, he thought, just like all
+the rest, even if you do know how to curl up space. So they had themselves a
+picnic. A picnic.
+     What's the best  way  to deal with my  picnickers? he thought,  driving
+slowly down the brightly lit wet streets. What would be the cleverest way to
+handle  it? Following the law of least action,  like in mechanics.  What the
+hell use is my blankety-blank engineering degree if I can't  even figure out
+the best way to trap that legless son of a bitch?
+     He parked in front of the house in which Redrick Schuhart lived and sat
+in the car, planning his  opening gambit. Then he removed the so-so, got out
+of  the car, and only then noticed that the house looked uninhabited. Almost
+all the windows were dark, there was nobody in the park, and even the lights
+in  the park were out. It reminded  him of what he was about to see,  and he
+shivered. He even considered the possibility of phoning Schuhart and talking
+with  him in the  car or in some quiet bar, but  he rejected the idea. For a
+whole lot of reasons. And besides, he said to himself, let's not behave like
+all those characters who ran out like rats deserting a sinking ship.
+     He went into the main entrance and slowly up the unswept stairs. It was
+quiet and many  of the doors leading  from the landings  were  ajar  or wide
+open.  It  smelled  damp  and  dusty in  the  apartments. He stopped  before
+Redrick's  door, smoothed his hair, sighed deeply, and rang the bell. It was
+still behind the door for a while,  then the floor creaked, the lock turned,
+and the door opened quietly. He hadn't heard the footsteps.
+     Monkey, Schuhart's daughter, stood in the doorway. A  bright light fell
+from the foyer  onto  the landing,  and at first  Noonan could only see  the
+girl's dark silhouette. He thought how much she  had grown  in the last  few
+months. Then she stepped back into the foyer and he saw her face. His throat
+went dry for a second.
+     "Hello, Maria," he said, trying  to be  as gentle as possible. "How are
+you, Monkey?"
+     She  did not reply. Silently and soundlessly  she  backed away from the
+door into the  living  room, looking  at him  from under her eye-  brews. It
+looked as  though she did not recognize him. To tell the truth, he  couldn't
+recognize her either. It's the Zone, he thought. Damn.
+     "Who's there?" Guta asked, looking out of the kitchen. "God, it's Dick!
+Where did you disappear to? You know, Redrick is back!"
+     She hurried over to him drying her hands with the  towel slung over her
+shoulder.  Still  as beautiful, energetic,  strong, but  she looked strained
+somehow: her face was thinner, and her eyes looked ... feverish, perhaps?
+     He kissed her cheek, gave her his raincoat and hat.
+     "I'm  sorry, I'm  sorry.  I just  couldn't get away to come over. Is he
+in?"
+     "He's in," Guta said.  "There's somebody with him. We should be leaving
+soon, they've been talking a long time. Go on, Dick.
+     He took several  steps down  the  hall and  stopped ill the door to the
+living  room. An old man  was sitting  at the table. A mileage. Motion- less
+and listing slightly. The  pink light from the lampshade  fell on  his broad
+dark face, his sunken, toothless mouth, and his still, lusterless  eyes. And
+Noonan  smelled it immediately.  He knew  that  it was just his imagination,
+that  the  odor  lasted  only  the  first  few  days  and  then  disappeared
+completely, but Richard Noonan smelled  it with his  memory--the fetid heavy
+smell of turned-up earth.
+     "We could go to the kitchen," Guta said quickly. "I'm cooking there and
+we could chat."
+     "Yes,  of course!"  he said  cheerily. "It's been such a long time! You
+haven't forgotten that I like a drink before dinner, I hope?"
+     They went  to the kitchen.  Guta opened the refrigerator and Noonan sat
+at  the table and looked around.  As usual, it was clean and shiny and steam
+was  rising  from  the  pots  and  pans on  the  stove. The  oven  was  new,
+semiautomatic. That meant they had money.
+     "Well, how is he?" Noonan asked.
+     "The same. He lost weight in prison, but I'm fattening him up."
+     "His hair still red?"
+     "You bet!"
+     "Hot-tempered?"
+     "What else! He'll be that way to the grave."
+     Guta gave him a Bloody Mary. The clear layer of Russian vodka seemed to
+float on the layer of tomato juice.
+     "Too much?"
+     "Just right." Noonan poured the drink down. He  realized that  that was
+his first real drink all day. "Now that's better."
+     "Is  everything  all right  with you?"  Guta asked.  "Why  haven't  you
+dropped by for such a long time?"
+     "Damn  business.  Every week I intended to come over or at  least call,
+but first I had to  go to Rexopolis,  then there was a big to-do, and then I
+heard that Redrick was back and I thought I'd let you two  have some time to
+yourselves. I'm  really hassled, Guta. Sometimes I ask myself, what the hell
+are we all running  around for,  anyway? To make money? But what the hell do
+we need money if all we do is run around making it?"
+     Guta clattered  the  pot  covers,  took a pack  of  cigarettes from the
+shelf,  and  sat  at  the table across  from  Noonan. Her eyes were lowered.
+Noonan  pulled out  his lighter  and  lit  her cigarette. And again, for the
+second time  in his  life, he saw  her hands  trembling, like the  time when
+Redrick  had just  been sentenced  and  Noonan came over  to  give  her some
+money--she was in a lot of trouble at first with no money at all, and no one
+in  the building would lend her any. Then there  was  suddenly money in  the
+house, and quite  a bit of it, judging by  everything, and Noonan had a good
+guess as to its source, but he continued  coming over, bringing Monkey candy
+and  toys, spending  whole evenings over  coffee with  Guta, planning a new,
+happy life  for Redrick.  And then, having heard her stories, he would go to
+the neighbors and try to reason with them, explaining, coaxing, and finally,
+at the end of his patience, threatening  them: "You know  Red will be coming
+back, and he'll break you all in half." But nothing helped.
+     "How's your girlfriend?" Guta asked.
+     "What girlfriend?"
+     "The one you came over with that time, the blonde."
+     "That's  no  girlfriend! That  was  my  secretary.  She got married and
+quit."
+     "You ought to get married, Dick. You want me to find a girl for you?"
+     Noonan  was about to give  the standard reply: "Well, I'm just  waiting
+for Monkey to  grow up." But he stopped himself. It just  wouldn't have come
+off any more.
+     "I need a secretary, not a wife," he bumbled. "Why don't you leave your
+red  devil and  come be my secretary. You  used to  be an excellent one. Old
+Harris still reminisces about you."
+     "I'll bet. My hand was always black and blue from beating him off."
+     "Oh,  so it  was  like that?" Noonan  tried to  look  surprised.  "That
+Harris!"
+     "God!" Guta said. "I could never get  past him. My  only worry was that
+Red would find out."
+     Monkey  walked in silently,  hovering near the  door. She looked at the
+pots,  at Richard,  then came  up  to her  mother  and leaned  against  her,
+averting her face.
+     "Well, Monkey," Richard Noonan said heartily. "Like some chocolate?"
+     He  took  a  chocolate  bar  out of his  vest  pocket  and extended the
+plastic-wrapped package  to  the girl.  She  did not  stir.  Guta  took  the
+chocolate from him and put it on the table. Her lips were white.
+     "Well, Guta, you know I've decided to move." He  spoke on  in a  hearty
+tone. "I'm tired of hotel living. And it's too far from the institute."
+     "She  understands  less and  less--almost nothing any more,"  Guta said
+softly.  He  stopped  talking,  picked up  the  glass with both  hands,  and
+absently twirled it.
+     "You're not asking how we're doing,"  she continued. "And you're right.
+Except that you're an old friend, Dick, and we have no secrets from you. And
+there's no way to keep it a secret anyway."
+     "Have you seen a doctor?" he asked without looking up.
+     "Yes.  They can't do  a thing.  And  one  of them said...." She stopped
+talking.
+     He was silent too. There was nothing to say about it and he didn't want
+to  think  about it either. Suddenly  he  had  a horrible thought: it was an
+invasion.  Not a  roadside picnic,  not  a  prelude to  contact.  It was  an
+invasion. They can't change us, so they get into the bodies of our  children
+and change them in their own image.  He felt a chill, but then he remembered
+that he had read something like that  in a paperback with a lurid cover, and
+he felt better. You can imagine anything at all. And real life is never what
+you imagine.
+     "And one of them said that she's no longer human."
+     "Nonsense," Noonan said hollowly. "You should go to a  real specialist.
+Go see James  Cutterfield. Do  you want me to talk  to  him? I'll arrange an
+appointment."
+     "You mean  the Butcher?" She laughed nervously.  "Don't bother. Thanks,
+Dick, but he's the one who said so. I guess it's fate."
+     When  Noonan dared to  look  up  again,  Monkey was gone  and Guta  was
+sitting motionless, her mouth half-open, her eyes empty, and a long gray ash
+on her cigarette. He pushed his glass over to her.
+     "Make me another, please, and one for yourself. We'll have a drink."
+     The  ash fell and she looked around for a place for the butt. She threw
+it into the garbage can.
+     "Why? That's what I can't understand! We're not the worst people in the
+city."
+     Noonan thought  that she was going to cry,  but she didn't.  She opened
+the refrigerator, got the vodka and juice, and took  another glass down from
+the cabinet.
+     "Don't give  up hope. There's nothing in the world that can't be fixed.
+And believe me, Guta, I  have very important connections. I'll do everything
+that I can."
+     He believed what he was saying and  he was mentally going over the list
+of his  connections ill various  cities, and it seemed  to him  that he  had
+heard about similar cases, and that they  had seemed  to have ended happily.
+He just had to remember where it was and who the  physician was. But then he
+remembered Mr. Lemchen, and  he remembered why he had befriended  Guta,  and
+then he didn't want  to think about anything at all.  He  scattered all  his
+thoughts of connections, got  comfortable  in his chair, relaxed, and waited
+for his drink.
+     There were shuffling steps and a thumping in the hall and he could hear
+the more-than-ever repulsive voice of Buzzard Burbridge.
+     "Hey, Red! Looks like your Guta is entertaining  someone. I see  a hat.
+If I were  you, I wouldn't leave them alone." Red's voice: "Watch your false
+leg, Buzzard. Shut your mouth. There's the door, don't forget to leave. It's
+time for my dinner."
+     "Damn it, can't even make a little joke."
+     "We've had all the jokes we'll ever have. Period. Now get going!"
+     The lock clicked  and the voices were  quieter. Obviously they had gone
+out  on  the landing. Burbridge said something in an undertone, and  Redrick
+replied: "That's all, we've had our talk!" More grumbling from Burbridge and
+Redrick's harsh:  "I said that's it!" The door slammed, there were loud fast
+steps in  the hall,  and Redrick Schuhart appeared in  the  kitchen doorway.
+Noonan rose to greet him, and they warmly shook hands.
+     "I  was sure  it was  you," Redrick said, looking Noonan over  with his
+quick greenish eyes. "Putting on weight,  fatso! Keep putting it away, eh? I
+see you're passing the  time of day pleasantly enough. Guta,  old love, make
+one for me, too. I've got to catch up."
+     "We haven't even started yet. How can anyone get ahead of you?" Redrick
+laughed harshly and punched Noonan in the shoulder.
+     "Now we'll see who  catches up and who  gets ahead! Come on, let's  go,
+what are we doing out here in the kitchen? Guta, bring on the dinner."
+     He  reached  into  the refrigerator and  came out with  a bottle with a
+bright label.
+     "We'll have ourselves a  feast!"  he announced. "We  have to  treat our
+best friend Richard Noonan royally, for he does not desert his pals in their
+moment of need! Even though he is of no help whatever. Too bad Gutalin's not
+here."
+     "Why don't you call him?" Noonan suggested.
+     Redrick shook his bright red head.
+     "They haven't laid the phone lines to where he is tonight. Let's go.
+     He went into the living room and slammed the bottle on the table.
+     "We're going to celebrate,  pops!" he said  to the motionless old  man.
+"This  here is Richard Noonan,  our friend!  Dick, this is  my pop, Schuhart
+Senior."
+     Richard  Noonan, his mind rolled up  into an impenetrable ball, grinned
+from ear to ear, waved, and said in the direction of the moulage:
+     "Glad to  meet  you, Mr. Schuhart. How  are  you? You  know,  we've met
+before, Red," he said to Schuhart, Jr.,  who  was puttering at  the bar. "We
+saw each other once, but very briefly, of course."
+     "Sit down," Redrick said to  him, indicating the chair opposite the old
+man. "If you're going to talk to him, speak up. He can't hear a thing."
+     He set up the glasses, quickly opened the bottle, and turned to Noonan.
+     "You pour. Just a little for pops, just cover the bottom."
+     Noonan  took his time pouring. The  old man sat in the  same  position,
+staring at the wall. And he did not react when Noonan moved his glass closer
+to him.  Noonan  had already adjusted to the new  situation.  It was a game,
+terrible and pathetic. Red was playing the game, and he joined in, as he had
+always joined  other peoples' games  all his  life-terrifying ones, pathetic
+ones, shameful ones, and ones much more  dangerous than this. Redrick raised
+his glass and said: "Well, I guess we're off?" Noonan looked over at the old
+man in a  completely natural manner. Redrick impatiently clinked  his  glass
+against  Noonan's  and  said:  "We're  off, we're off."  Then Noonan nodded,
+completely naturally, and they drank.
+     Redrick, eyes  shining,  began  to  talk in his  excited  and  slightly
+artificial tone.
+     "That's it, brother! jail will never see me again. If you only knew how
+good  it is to be home; I have the dough and  I've  picked out a new  little
+cottage  for myself, with a garden--as good as Buzzard's place. You know,  I
+had wanted to emigrate,  I had  decided when was still in jail. I mean, what
+was I sitting in this lousy two-bit town for? I thought, let the whole place
+drop dead. So I get back, and there's a surprise for me--emigration has been
+forbidden! Have we suddenly become plague-ridden during the last two years?"
+     He  talked  and  talked,  and  Noonan nodded,  sipped  his whiskey, and
+interjected  sympathetic  noises  and rhetorical questions. Then  he started
+asking  about  the cottage--what  kind was it,  where was it,  what  did  it
+cost?--and  then they argued. Noonan insisted that the cottage was expensive
+and inconveniently located. He took out  his  address book, flipped  through
+it, and named the locations of abandoned cottages that were being sold for a
+song. And  the repairs would be  almost free,  because he  could  apply  for
+emigration, be turned down,  and sue  for compensation, which would pay  for
+the repairs.
+     "I see that you're involved in nonemigration, too."
+     "I'm involved in everything a little," Noonan replied with a wink.
+     "I know, I know, I've heard all about your affairs."
+     Noonan put  on a  wide-eyed look of surprise,  raised his finger to his
+pursed lips, and nodded in the direction of the kitchen.
+     "All right, don't worry, everybody knows about it," Redrick said.
+     "Money never stinks.  I know that for sure now. But getting Mosul to be
+your manager. I almost fell  on the floor laughing  when I heard! Letting  a
+bull into  the china  shop. He's a psyche, you know. I've known him since we
+were kids."
+     He  fell silent and looked at the old man. A shudder  crossed his face,
+and  Noonan was amazed to see the look of real, sincere love and  tenderness
+on that tough freckled mug of his.
+     Watching  him,  Noonan remembered  what  had happened  when Boyd's  lab
+workers showed up here for  the moulage. There were two lab assistants, both
+strong young men, athletes and all that, and a doctor from the city hospital
+with  two  orderlies, tough  and  rough  burly  guys  used to  lugging heavy
+stretchers and overpowering hysterical patients.  One  of the lab assistants
+later told him  that "that redhead" at first didn't  seem to understand what
+was going on, because he let them into the  apartment to examine his father.
+They probably would  have  gotten the old man away, because it looked as  if
+Redrick  thought that they  were putting  his old  man in the  hospital  for
+observation. But the stupid orderlies, who had spent  their time  during the
+preliminary  negotiations  gawking  at  Guta  washing the  kitchen  windows,
+grabbed the old man like a log when they were called in--and  dropped him on
+the floor. Redrick went  crazy.  Then  the jerk of a doctor  volunteered  an
+explanation of what was going on. Redrick listened  for a minute or two  and
+suddenly exploded without any warning like a hydrogen bomb The assistant who
+told the story did not remember how he ended up on the street. The red devil
+got them  all down the stairs, all five of them, and not one left under  his
+own  power. They all  shot out of the foyer like cannonballs. Two  ended  up
+unconscious  on the  sidewalk and  Redrick  chased the  other three for four
+blocks.  Then he returned and bashed  in  all  the windows on the  institute
+car--the driver had made a run for it when he saw what was happening.
+     "I learned how to make a  new cocktail at this bar," Redrick was saying
+as  he poured more whiskey. "It's called  Witches'  Jelly, I'll make you one
+later, after we've eaten. Brother, it's not  something you should have on an
+empty stomach--it's dangerous to the health: one  drink makes  your arms and
+legs  numb. I don't care what you say, Dick, I'm going to treat you  royally
+today. We'll remember the good  old days and  the Borscht. Poor old Ernie is
+still in the cooler, you know that?" He drank, wiped his mouth with the back
+of his hand  and casually asked: "What's new at  the  institute?  Have  they
+tackled witches' jelly yet? You know, sort of fell behind science a bit."
+     Noonan understood why  Redrick was bringing up the  topic. He threw  up
+his hands in dismay.
+     "Are you kidding? Did  you know what happened with that jelly? Have you
+heard of the Currigan Labs? There's this little private supplier.. . So they
+got themselves some jelly...."
+     He  told  him  about the catastrophe. And about the shocking  fact that
+they never tied up the loose ends, never found  out where the lab had gotten
+it. Redrick listened, Feigning distraction, clucking his tongue, and shaking
+his head. He decisively splashed more whiskey into their glasses.
+     "That's what they deserve, the bloodsuckers. I hope they all choke."
+     They drank. Redrick looked over at his father and a shudder crossed his
+face once more.
+     "Guta!" he  shouted. "Are you going  to  starve  us much  longer? She's
+knocking herself out for you, you know," he told  Noonan. "She wants to make
+your favorite salad, with crabmeat. She bought a  supply a while ago just in
+case you  turned up. Well, how are things at the institute in general? Found
+anything new? I hear  you have robots working full force but not getting too
+much out of it."
+     Noonan  started in on institute business,  and  while he  was  talking,
+Monkey appeared noiselessly at  the table  by the old man.  She  stood there
+with her hairy paws on the table and then  in a perfectly childlike way, she
+leaned against the moulage and put her head  on his shoulder. Noonan went on
+chatting but thought, as he looked at those two horrors born of the Zone: My
+God,  what else? What else has to be done to us  before we understand? Isn't
+this enough? But he knew that it wasn't. He knew that millions upon millions
+of people knew nothing and wanted  to know nothing, and  even  if they found
+out  would ooh and  aah  for five minutes  and then go  back  to  their  own
+routines. It was time to go,  he thought  wildly. The hell with Bur- bridge,
+the hell with Lemchen, and the hell with this goddamned family!
+     "What are you staring at them for?" Redrick asked softly. "Don't worry,
+it won't harm her. They even say that they generate good health."
+     "Yes, I know," Noonan said and drained his glass.
+     Guta came in, ordered  Redrick to set the table, and set a large silver
+bowl with Noonan's favorite salad on the table.
+     "Well, friends," Redrick announced. "Now we're going  to have ourselves
+a feast!"
+
+
+4. REDRICK SCHUHART, AGE 31
+
+
+
+     The valley had cooled overnight, and by dawn it was actually cold. They
+were walking along the embankment, stepping over the rotten ties between the
+rusty  rails,  and  Redrick  watched the drops of condensed fog  glisten  on
+Arthur  Burbridge's leather jacket. The  boy  was striding along lightly and
+merrily, as though the exhausting night, the nervous tension that still made
+every vein  in his body ache, and the two horrible hours they  spent huddled
+back to back for warmth in a tortured half-sleep on top of the hill, waiting
+for the flood  of the  green stuff  to drip past them and disappear into the
+ravine--as though all that had not happened.
+     A thick  fog lay along the  sides of the embankment. Once in a while it
+crawled up on the rails with its  heavy  gray feet and in  those places they
+walked knee-deep in the swirling mists.  The  air  smelled of rust, and  the
+swamp  to  the right of  the embankment  reeked of  decay. The  fog made  it
+impossible to see anything, but Redrick knew that a hilly  plain with rubble
+heaps  surrounded them,  and that mountains  hid in the gloom beyond. And he
+knew also that when the sun came up  and the fog settled  into dew, he would
+see  the  downed helicopter some where on his  left  and the ore flatcars up
+ahead. And then the real work would begin.
+     Redrick slipped his hand up under the backpack to  lift  it so that the
+edge of the helium  tank would not dig into his  spine. It's a heavy bugger,
+he thought. How am I going to crawl with it? A mile on all fours. All right,
+stalker, no grumbling now, you knew what you were getting into. Five hundred
+thousand  at  the  end of the  road. I  can work  up a sweat  for that. Five
+hundred thousand sure is a sweet bundle. I'll be damned if I give it to them
+for less. Or if I give Buzzard more than thirty. And the punk? The punk gets
+nothing. If the old  bugger had  told even  half  the  truth,  the punk gets
+nothing.
+     He looked at Arthur's  back again and watched through squinted eyes  as
+the  boy stepped over two  ties at a  time, broad-shouldered, narrow-hipped.
+His dark raven hair,  like his sister's, bounced rhythmically.  He asked for
+it,  Redrick  thought  grimly.  Himself. Why did he  beg  to come  along  so
+persistently!  So desperately! He trembled and  had tears in his eyes. "Take
+me, Mr. Schuhart! Lots of people have offered to take me  along, but they're
+all no good! My father ... but he can't take me now!" Redrick forced himself
+to drop the memory. He was repelled by the thought  and maybe that's  why he
+started  thinking about  Arthur's sister. He just  could not  fathom it: how
+such a fantastic-looking woman could actually be a plastic fake, a dummy. It
+was like the buttons on his mother's blouse--they were amber, he remembered,
+semitransparent, and golden. He just wanted to shove them  in his mouth  and
+suck on them, and every time he was disappointed terribly, and every time he
+forgot  about  the disappointment --not forgot, just refused  to accept what
+his memory told him.
+     Maybe it was his pop who sent him over  to me, he thought about Arthur.
+Look at the piece he's carrying in his back pocket. Nah, I doubt it. Buzzard
+knows  me. Buzzard knows that I don't go for jokes. And  he  knows what  I'm
+like in the Zone. No, that's all nonsense. He's not the first to have begged
+me, and  not  the first  to have  shed tears; others even got  down on their
+knees. And as  for the piece, they all bring guns on their first time in the
+Zone. The first and last time. Is it  really the last? It's  your last, bud.
+Here's how it works out, Buzzard: his last. Yes, if you knew what your sonny
+boy  was planning --you  would have beaten him to a pulp with your crutches.
+He  suddenly  felt  that there was something ahead  of  them--not far,  some
+thirty or forty yards away.
+     "Stop," he told Arthur.
+     The boy obediently froze in his tracks. His reflexes were good-- he had
+stopped  with one foot in  the air, and he lowered it slowly and  carefully.
+Redrick  stopped  next   to  him.  The  track  dipped  noticeably  here  and
+disappeared  completely  in the fog.  And  there  was something in  the fog.
+Something big and motionless. Harmless. Redrick care fully sniffed the  air.
+Yes. Harmless.
+     "Forward,"  he said quietly. He waited for Arthur to take a step and he
+followed. Out of  the  corner  of his  eye  he could see Arthur's  face, his
+chiseled profile, the clear skin of his cheek, and the determined set of his
+lips under the thin mustache.
+     They were up to their waists in fog,  and then up to their necks. A few
+seconds later the great hulk of the ore cars loomed ahead of them.
+     "That's it,"  Redrick said  and  took off his backpack. "Sit down right
+where you are. Smoke break."
+     Arthur  helped him  with the backpack, and  they sat down next  to each
+other on the rusty rails.  Redrick unbuttoned  a flap and took out a package
+with  sandwiches and a thermos of coffee. While Arthur set up the sandwiches
+on top of the backpack, Redrick took out  his flask,  opened it,  closed his
+eyes, and took several slow sips.
+     "Want some?" he offered, wiping the neck of the flask. "For courage?"
+     Arthur shook his head, hurt.
+     "I don't need that for courage, Mr. Schuhart.  I'd rather have  coffee,
+if I may. It's awfully damp here, isn't it?"
+     "It's  damp."  He  put away  the  flask, chose  a sandwich,  and set to
+chewing.  "When  the fog lifts, you'll see that we're  surrounded by nothing
+but swamps. In the old days the mosquitoes were something fierce."
+     He shut up and poured himself some coffee It was hot, thick, and sweet,
+and it  was even  nicer to drink  now  than alcohol. It smelled of home.  Of
+Guta. And not just of Guta, but of  Guta in her robe, fresh from sleep, with
+pillow marks still on her cheek. Why did I get mixed up in this, he thought?
+Five hundred thousand. And what do I need it for? Planning to buy a bar with
+it or something?  You need money so you  don't  have  to think about  money.
+That's the truth. Dick was right  about  that. You have a  house, you have a
+yard, you won't he without a  job  in Harmont.  Buzzard trapped me, lured me
+like a tenderfoot.
+     "Mr.  Schuhart,"  Arthur  suddenly  said,  looking away "Do you  really
+believe this thing grants wishes?"
+     "Nonsense!"  Redrick muttered distractedly and froze over the cup  near
+his lips. "How do you know what we're after here?"
+     Arthur  smiled  in  embarrassment,  ran his fingers  through  his hair,
+tugged at it, and spoke.
+     "Well, I guessed! I don't remember exactly what gave me the clue. Well,
+first  of all, Father was always going on and on about the Golden Ball,  and
+lately he's stopped. And he has been talking about you. And
+     know better  than  to  believe  Father  about you  being  friends.  And
+secondly, he's been  kind of strange lately."  Arthur laughed  and shook his
+head, remembering something. "And finally, I figured it out, when you and he
+tried out the little dirigible  over  in the lot." He  smacked the  backpack
+that contained the  tightly rolled balloon. "I followed  you and when  I saw
+you lift the bag  with rocks and guide it over the ground, it was all  clear
+to me. As far as I know, the Golden Ball is the only heavy thing left in the
+Zone." He took a bite  out of his sandwich and spoke dreamily with his mouth
+full. "I just don't Understand how you plan  to hook  onto it, it's probably
+smooth."
+     Redrick watched him over the rim of the cup and thought how unlike each
+other they were, father and son. They had absolutely  nothing in common. Not
+face, or voice, or soul. Buzzard had a hoarse, whiny, sneaky kind  of voice.
+But  when he  talked  about this, his voice  was hearty. You couldn't ignore
+him. "Red," he had said then, leaning over the table. "There are only two of
+us left, and only  two legs for both, and they're yours.  Who  else but you?
+It's probably the most valuable thing in  the Zone! And who  should have it?
+Should those wise guys with their machinery get it? Hah? I found it. Me! How
+many of our boys fell there? But I found it! I was saving it for myself. And
+I wouldn't be giving it to  anyone now, but as you  see, my arms have gotten
+too short.  There's nobody left  but  you. I  dragged lots  of young ones in
+there, a  school full. I opened a school for them, you see ...  they  can't.
+They don't have  the guts for it, or something. All right, you don't believe
+me, I don't care. You want the money. You get it. You give me as much as you
+want. I know you won't gyp me. And  maybe I'll be able  to get my legs back.
+My legs, do  you  understand? The Zone took them away, and maybe  it'll give
+them back?"
+     "What?" Redrick asked, coming out of his reverie.
+     "I asked, do you mind if I smoke, Mr. Schuhart?"
+     "Sure. Go ahead and smoke. I'll have one too."
+     He gulped  the rest of  the  coffee, pulled out  a cigarette, and as he
+squeezed it, he gazed into the thinning fog. A psyche, he thought He's nuts.
+He wants his legs back, the bastard.
+     All this talk had left a  residue, he was not  sure of what. And it was
+not dissolving with time, but  on the contrary, it was accumulating. And  he
+could not understand what it was, but it was bothering him. It was as though
+he had  caught something from  Buzzard, not some disgusting  disease, but on
+the contrary .. .  his strength, perhaps?  No, not strength. But what  then?
+All  right,  he told himself. Let's look at it this way: let's assume that I
+didn't get  this far.  I was all ready to  go,  packed,  and then  something
+happened, they arrested me, say.  Would that  be  bad?  Definitely. Why bad?
+Because I would lose  money? No, it has nothing to  do with the  money. That
+this  treasure  will fall into  the  hands  of  Throaty and  Bones?  There's
+something in that. It would hurt. But what  do I care?  In  the end, they'll
+get it all anyway.
+     "Brrrrrr."  Arthur shivered. "It gets into  your bones.  Mr.  Schuhart,
+maybe now you'll give me a sip?"
+     Redrick got the flask silently. I didn't agree right  away, he thought.
+Twenty times  I told Buzzard to get lost, and on the  twenty-first I agreed,
+after all. I couldn't take it any more.  Our last conversation turned out to
+be brief and businesslike. "Hi, Red. I brought the  map. Maybe you'll take a
+look  at  it,  after  all?" And I looked into his eyes,  and they were  like
+sores--yellow with black dots--and I said "Let me have it." And that was it.
+I remember that I was  drunk then,  I had  been  drinking all week,  I  felt
+really low. Ah, the hell with it. Does it matter?  I went. So here I am. Why
+am I worrying about it? What am I, afraid?
+     He shuddered. He could hear a long sad sound through the fog. He jumped
+up and Arthur jumped up too. But it was quiet  again, and the only sound was
+the gravel tumbling down the incline under their feet.
+     "Must be the ore settling," Arthur whispered  unsurely,  barely able to
+get the words out.  "The ore  cars have a  history--they've been here a long
+time."
+     Redrick looked straight ahead and saw nothing. He remembered. It was at
+night.  He  woke up from the same sound, sad and long,  his  heart stopping,
+like in a dream. Only it hadn't been a dream. It was Monkey screaming in her
+bed by the window. Guta woke up, too, and took Redrick's hand. He could feel
+the  sweat  break out  on  her  shoulder against his.  They  lay  there  and
+listened, and when Monkey stopped crying and went back to sleep, he waited a
+little longer, then got up,  went down to the kitchen, and greedily drank  a
+half-bottle of cognac, That was the night he started drinking.
+     "It's  the  ore,"  Arthur  said.  "You know, it  settled with time. The
+dampness, erosion, all kinds of things like that."
+     Redrick looked at his pale face and  sat down again.  His cigarette had
+disappeared somewhere from his fingers, and he lit another one. Arthur stood
+a little longer, looking around anxiously, then he also sat down.
+     "I've heard  that there's life in  the Zone. People. Not  visitors, but
+people. It seems  the Visitation  caught  them  here,  and they mutated ....
+they've acclimated  to  the new conditions.  Have  you heard  that, too, Mr.
+Schuhart?"
+     "Yes," Redrick said. "But not here. In  the mountains in the northwest.
+Some shepherds.
+     That's what he's infected me  with, he thought. His madness. That's why
+I've come here.  That's what I  want  here. A  strange  and very new feeling
+overwhelmed him. He  was aware that the feeling was  really not  new at all,
+that it  had  been  hidden  in  him  for  a  long  time,  but  that  he  was
+acknowledging  it  only now,  and  everything  was  falling  into place. And
+everything that  had seemed  like nonsense  and the delirious  ravings  of a
+crazy  old man turned out to be his only hope, the only meaning of his life.
+Because he finally understood:  the only thing he had left in the world, the
+only  thing he lived for in the last few months  was  the hope of a miracle.
+Fool that  he was, he  kept  pushing hope away, trampling on it, mocking it,
+trying to drink it away,  because that  was the way he  was used to  living.
+Since  childhood he had relied  on nothing but himself. And since  childhood
+this self-reliance had been measured in the amount of money he could snatch,
+grab, or  bite away from the indifferent  chaos that  surrounded him. It had
+always been that way, and it would have continued, if he had not ended up in
+a  hole that no  amount of money could  get him  out of and in  which it was
+absolutely useless to rely on himself. And now this hope--no longer a  hope,
+but  confidence in a miracle --filled him to the brim,  and he was amazed at
+how he could have lived for so long in the impenetrable,  exitless gloom. He
+laughed and gave Arthur a poke in the shoulder.
+     "Well, stalker, think we'll live through this, eh?"
+     Arthur  looked  at him  in  surprise and  smiled  uncertainly.  Redrick
+crumpled  up the waxed paper from  the sandwiches, tossed it under  the  ore
+car, and lay down, his elbow on the backpack.
+     "All  right," he said.  "Let's  say  that  the Golden Ball really--what
+would you wish?"
+     "You mean, you do believe?" Arthur asked quickly.
+     "That's  not  important  whether  or  not  I  believe.  You  answer  my
+question."
+     He really was interested  in what  such  a young boy, a  schoolboy just
+yesterday, could ask  of the Golden  Ball, He enjoyed watching Arthur frown,
+tug at his mustache, and look up at him and look away.
+     "Well,  dad's legs, of course. And  for  everything to  be all right at
+home."
+     "You're lying," Redrick said pleasantly. "Keep  this in mind,  brother.
+The Golden Ball only grants your deepest, innermost wishes, the kind that if
+they're not granted, it's all over for you!"
+     Arthur Burbridge blushed,  looked up at Redrick  once more, and  became
+even redder. His eyes filled with tears. Redrick grinned.
+     "I understand,"  he said  almost  gently. "All right, it's none  of  my
+business. Keep your secrets to yourself." He suddenly remembered the gun and
+thought that while he had the time he  should take care of whatever could be
+taken care of. "What's that in your back pocket?" he asked casually.
+     "A gun."
+     "What do you need it for?"
+     "To shoot!" Arthur said challengingly.
+     "Forget  it," Redrick  said firmly  and sat up. "Give it here.  There's
+nobody to shoot at in the Zone. Give it to me.
+     Arthur  wanted to say  something, but  kept silent,  took the Army Colt
+from his pocket and handed it to Redrick by the barrel. Redrick took the gun
+by its warm textured handle, tossed it up in the air, and caught it.
+     "Do you have a handkerchief or something? I want to wrap it up."
+     He  took Arthur's handkerchief,  clean and smelling of cologne, wrapped
+the gun in it, and put it on the railroad tie.
+     "We'll leave it here  for now. God willing, we'll come back and pick it
+up.  Maybe  we'll have to  shoot it  out  with  the patrol  guards. However,
+shooting it out with them.... Arthur decisively shook his head.
+     "That's not  what I wanted it for," he  said sadly.  "There's only  one
+bullet. In case of an accident like Father's."
+     "So, that's it."  Redrick stared at him. "Well, you don't have to worry
+about that. If that should happen, I'll drag you back here. I promise. Look,
+it's getting light!"
+     The fog was disappearing before their eyes. It was completely gone from
+the embankment and in the distance it was thinning, melting away and showing
+the  rounded  bristly peaks  of the hills. Here and there between  the hills
+could  be  seen  the mottled  surface  of the stagnant swamps, covered  with
+sparse  thickets of willows, and the horizon, beyond  the hills, was  filled
+with bright yellow explosions of mountain peaks, and the  sky above them was
+clear and blue. Arthur looked  back and gasped with awe. Redrick looked too.
+In the  east the  mountains looked  black, and over them  the familiar green
+wash of color billowed and shone iridescently--the Zone's green dawn.
+     Redrick  got up, went  behind the ore car,  sat  on the embankment, and
+watched as the  green  wash  dimmed and quickly  turned to  pink. The  sun's
+orange rim came up over  the  ridge, and purple  shadows  stretched from the
+hills. Everything became harsh  and in  high  relief, he could see things as
+clearly as if they were in the palm of his hand. Right in front, two hundred
+yards away, Redrick  saw the helicopter. It had fallen, apparently, into the
+middle of a mosquito mange spot, and its  fuselage had been  squashed into a
+metal pancake.  Its  tail  had  remained  intact, only slightly bent, and it
+stuck out  over the glade like a black hook. The stabilizer was also  whole,
+and it squeaked distinctly, turning in the light breeze. The mange must have
+been  very powerful, for there hadn't even  been a real fire,  and the Royal
+Air  Force  insignia was very clear on the flattened  metal. Redrick had not
+seen one in many years  and had almost  forgotten  what the  insignia looked
+like.
+     Redrick went back to his  pack for the map,  which he spread out on the
+hot mound of  ore in the car. You couldn't see the quarry from  here--it was
+blocked  by the  hill  with the burned-out tree on its rise.  He had  to  go
+around the hill from the right, along the depression between it and the next
+hill, which he could also see, completely bare, its slope covered with brown
+rocks.
+     All  the  reference   points   corresponded,   but   Redrick  felt   no
+satisfaction.  His instinct of many years as a stalker protested against the
+very thought, which was  irrational and unnatural, of  laying a path between
+two nearby elevations. All  right, Redrick  thought,  we'll  see  about that
+later. It will be clearer when we get there. The path before the  depression
+led through the swamp, along open flat ground, which seemed safe enough from
+here. But looking closer, Redrick noted a dark gray spot between the two dry
+hills. He looked at the  map. There was an X  there, and it said "Whip" next
+to it in clumsy letters.  The red dotted line of the  path went to the right
+of the )i. The name was sort of familiar, but who Whip was exactly, and what
+he  looked like, and what  he did,  Redrick  could  not  remember.  For some
+reason, Redrick could only remember the smoky room of the Borscht, huge  red
+paws  holding glasses, thundering laughter, and open jaws filled with yellow
+teeth--a fantastic  herd of titans and giants gathered at the watering hole,
+one of his most striking childhood memories--his first visit to the Borscht.
+What  had I brought that time? An empty, I  think. Straight  from the  Zone,
+wet, hungry, crazy, with a  sack over my shoulder, I burst into  the bar and
+clattered the  sack  on the  counter  in  front of  Ernest,  looking  around
+angrily, listening to the wisecracks, waiting for Ernest--young  then and in
+a bow tie, as usual --to count the right amount  of greenbacks. No, wait, it
+wasn't  green  back then,  we still had  the  square royal  bills  with some
+half-naked dame wearing  a cape and a wreath. I waited, put away the  money,
+and unexpectedly,  even  for myself, took  a heavy  mug from the counter and
+slammed  it into  the  closest laughing  face. Redrick smirked and  thought:
+maybe that was Whip himself?
+     "Is it  all right  to  go between  the two hills, Mr. Schuhart?" Arthur
+asked in a low voice near  his  ear.  He was next to him looking at the map,
+too.
+     "We'll see when we  get there." Redrick kept looking at  the map. There
+were two other X's, one on the slope of the hill with the tree, the other on
+the rocks.  Poodle and Four-eyes. The  path was  marked  below them.  "We'll
+see," he repeated, folding up the map and putting it in his pocket.
+     He looked Arthur over.
+     "Put the backpack on my back. We'll go  like before," he said, shifting
+under the weight of the pack and arranging the straps more comfortably. "You
+go ahead,  so that call see  you every second. Don't look back and keep your
+ears open. My order is law. Keep in mind  that we'll have a  lot of crawling
+to do, don't  suddenly be afraid of the  dirt. If I tell  you  to, drop your
+face into the mud without any backtalk. And button your jacket. Ready?"
+     "Ready."  Arthur  was  very nervous;  the  rosiness of  his cheeks  had
+disappeared.
+     First we go  this way." Redrick  waved sharply in the direction of  the
+nearest hill a hundred steps from the rocks. "Got it? Let's go."
+     Arthur heaved a sigh, stepped over the rails, and started down sideways
+from the embankment. The pebbles rained after him noisily
+     "Easy, easy," Redrick said. "There's no hurry."
+     He  started  down slowly after  him,  automatically adjusting  his  leg
+muscles  to the weight  of the heavy backpack. He  watched Arthur out of the
+corner of his eye. He's  scared, he thought. He must sense  it. If his sense
+is like his father's, he does. If you only knew how things were turning out,
+Buzzard. If you only knew, Buzzard, that I took your advice this time. "This
+is one place,  Red, that you can't go to alone. Like it or not,  you'll have
+to  take  somebody  with  you.  I  can  give you  one  of  my  people  who's
+expendable."  You talked me  into it. It's the first  time in my life that I
+agreed to something like this. Well,  maybe it will  turn  out all right, he
+thought. Maybe,  somehow,  it  will  work out.  After all,  I'm not  Buzzard
+Burbridge, maybe I'll figure something out.
+     "Stop!" he told Arthur.
+     The boy stopped ankle-deep in rusty water. By the time Redrick got down
+to him, the quagmire had sucked him in up to his knees.
+     "Do you see that rock?" Redrick asked. "There, under the hill? Head for
+it."
+     Arthur moved on. Redrick let him get ten paces ahead and then followed.
+The mud slurped underfoot. It was a dead swamp--no bugs, no frogs,  even the
+willows were dry and  rotten. Redrick looked around, but for  now everything
+seemed to be  in order. The hill slowly got closer, covering the sun,  which
+was still  low in the sky, and finally  blocking the entire  eastern sky. At
+the rock, Redrick looked back at the embankment.  It was brightly lit by the
+sun. A train of ten  ore cars stood oil it.  Some of the cars had fallen off
+the tracks and were lying on their sides, and the embankment above  them was
+covered with the rusty red piles of the ore. Further on, in the direction of
+the  quarry,  north of  the  train,  the air over  the  track  shimmered and
+undulated, and tiny rainbows exploded and died in the air. Redrick looked at
+the shimmer, spat, and turned away.
+     "Let's go,"  he  said. Arthur turned his tense  face to him. "See those
+rags over there? You're looking the wrong way! Over there, to the right."
+     "Yes," said Arthur.
+     "Well, that was a guy called Whip. A long time ago. He didn't listen to
+his elders and now he lies there in  order to  show  smart people the  right
+way. Look just  to the right of Whip. Got it? See the spot? Right where  the
+willows are a little thicker. That's the way. You're off!"
+     Now they  were  moving parallel to  the  embankment. Every step brought
+them to  shallower  water,  and  soon  they  were walking  on  dry,  springy
+hillocks. The map still  showed this as solid swamp. The  map's old, thought
+Redrick, Burbridge hasn't been  here in a long time, and it's gotten out  of
+date. That's bad. Of course, it's easier to walk on dry  land,  but it would
+have  been better for that swamp to be  here. Look at Arthur go, he thought.
+He's walking like he's strolling down Central Avenue.
+     Arthur seemed to have perked up and was  walking full speed. He had one
+hand in his pocket and he  was  swinging the other  as if out  on  a stroll.
+Redrick rummaged in his pocket, took out a bolt weighing an ounce or so, and
+threw it  at his head. The bolt hit Arthur in the back of the  head. The boy
+gasped, grabbed  his  head, crouched,  and fell  into the dry grass. Redrick
+stood over him.
+     "That's how it comes  out here, Artie," he pontificated. "This isn't an
+avenue, we're not on a  promenade here, you  know. Arthur got up slowly. His
+face was drained white.
+     "Everything clear?" Redrick asked. Arthur gulped and nodded.
+     "Fine. And next time I'll let you have it in the teeth. If you're still
+alive. Go ahead!"
+     The boy could  have made a stalker,  after  all, thought  Redrick. They
+probably would have  called him Pretty Boy Artie.  We used to  have  another
+Pretty  Boy, his  name was Dixon, but now they called him  Hamster. The only
+stalker to fall into the  meatgrinder and live. He was lucky. The fool still
+thinks that  it was Burbridge who pulled him out of it. The hell he did! You
+don't  get pulled out of the meatgrinder.  He did pull him out of the  Zone,
+that's true enough Burbridge performed a heroic deed like that. If he hadn't
+... !  Everybody  was getting fed  up with his tricks, and the guys had told
+him: you  better  not come back if you come back alone.  That  was when they
+began calling him Buzzard, before they used to call him Winner.
+     Redrick felt a barely perceptible current of air on  his left cheek and
+immediately, without thinking, he shouted: "Halt!"  He extended his  hand to
+the  left.  The  current  was  stronger. Some  where  between  them and  the
+embankment there was  a  mosquito  mange,  or  maybe it  extended  along the
+embankment itself: there was a reason  why the cars had tilted  over. Arthur
+stood as though he had been planted, he did not even turn around.
+     "To the right. Let's go."
+     Yes, he would have made a good stalker. What the hell, do I feel  sorry
+for him or something? That's all  I need. Did anyone ever feel sorry for me?
+I guess they did. Kirill felt  sorry for me. Dick Noonan feels sorry for me.
+Of course, he might be more interested in Guta than in feeling sorry for me,
+but one  doesn't necessarily rule out  the  other. Only  I don't get to feel
+pity.  My choice  is always either/or.  He  finally  understood  the choice:
+either this boy, or  my Monkey. There was no real choice, it  was clear.  If
+only miracles did happen, some voice said inside, and he repressed the voice
+with horror
+     They  went around  the  mound  of gray  rags. There was nothing left of
+Whip.  Some  distance  away in the dry grass lay  a  long, completely rusted
+stick--a minesweeper. In those days many stalkers used mine sweepers, buying
+them  up on the quiet from army suppliers, and depended on them like on  the
+Lord  God himself, and  then two  stalkers  were killed  within  a few days,
+killed  by underground  explosions. And that put an  end to it. Who had this
+Whip been? Did Buzzard bring  him here  or had he come on his own? Why  were
+they  all  drawn to this quarry?  Why hadn't I heard anything about it? Damn
+it,  it's hot! And this is  so early in the morning, I can  imagine what  it
+will be like later.
+     Arthur,  walking five paces  ahead,  wiped  the sweat  from  his  brow.
+Redrick squinted up at the sun;  it was  still low. And suddenly he realized
+that the dry grass was not rustling underfoot but squeaking like cornstarch,
+and it was no longer stiff and bristly, but soft and crumbly--it was falling
+apart under  their shoes, like  flakes  of soot. And  he  saw Arthur's clear
+footprints, and  he  threw himself  down  on the ground, shouting:  "Hit the
+dirt!"
+     He  fell face  down into the  grass, and it  turned into dust under his
+cheek.  He gnashed his  teeth in anger over  their bad  luck.  He  lay there
+trying  not to move, still hoping that it  would  blow over, even though  he
+realized that they were trapped. The  heat  was increasing,  over-  whelming
+him, enveloping his body like  a sheet soaked in boiling water. Sweat poured
+into his eyes, and Redrick shouted  belatedly to  Arthur: "Don't move!  Bear
+it!" And he started bearing it himself.
+     He would  have withstood it, and everything would  have  passed quietly
+and well, they would have gotten by with a lot of sweat, but Arthur couldn't
+take it. Either he had not heard Redrick's shout, or he became scared out of
+his wits, or maybe, he had been baked more strongly than Redrick--anyway  he
+lost  control  and ran  off  blindly,  with  a scream  deep  in his  throat,
+following his instinct--backward,  The  very direction  they  couldn't take.
+Redrick  barely managed to rise and grab his  ankle with  both hands. Arthur
+fell  down with  the full weight of-his body,  raising  a  cloud  of  ashes,
+squealed  in  an unnatural voice, kicked Redrick in the face with his  other
+foot, and struggled  wildly. Redrick, not thinking clearly  any more through
+the pain, crawled on top of him, touching the leather jacket with his burned
+face, trying  to press  the boy into the ground, holding his long hair  with
+both hands and  desperately kicking his feet  and knees at Arthur's legs and
+his rear end and  at the dirt. He could barely hear the muffled moans coming
+from beneath him and his own hoarse shouts:
+     "Lie there,  you toad, lie still, or I'll  kill you."  Tons and tons of
+hot coals  were pouring  over him,  and  his clothing was in flames and  the
+leather of  his shoes and jacket was blistering and  cracking, and  Redrick,
+his head mashed into  the gray  ash, his chest trying to keep the damn boy's
+head down, could not stand it. He yelled his lungs out.
+     He did not remember when it all ended. He understood only that he could
+breathe again, that  the air was air again,  and not  steam  that burned his
+throat, and  he realized  that they had to hurry and get out  from under the
+devilish heat before it came crashing down on them again. He got off Arthur,
+who was lying perfectly still, tucked both his legs under one arm, and using
+his free  arm, crawled forward, never taking his eyes off the line where the
+grass  started again. It was  dead,  prickly,  dry, but  it  was real and it
+seemed like the greatest source of life in the world. The ashes felt  gritty
+in his teeth, his burnt face gave off heat, and the sweat  poured right into
+his eyes, probably because  he no longer had eyebrows or  eyelashes.  Arthur
+was stretched out behind, his jacket seeming  to catch on to  every possible
+place. Redrick's  parboiled hands ached, and the backpack  kept bumping into
+his burned neck.  The pain and lack  of air made  Redrick think that he  was
+completely burned  and  that  he would not make  it.  The fear made him work
+harder  with his elbow and his knees. just get  there,  just a  little more,
+come on, Red, come on, you can make it, like that, just a little more....
+     Then he  lay for a long  time, his face and  hands in  the  cold, rusty
+water, luxuriating in the smelly, rotten coolness. He could have  lain  like
+that  forever, but  he forced himself to get up on  his knees, throw off the
+backpack, crawl over to  Arthur, who was  still lying motionless some thirty
+feet from the  swamp, and turn  him over  on his back. Well, he used to be a
+pretty boy.  And  now that  handsome face was a dark gray  mask of  baked-on
+blood and ash. For a  few  seconds Redrick examined  with dull  interest the
+ruts and furrows made in the mask--the tracks of stones and  sticks. Then he
+got up  on his feet, picked up Arthur by the armpits, and dragged him to the
+water. Arthur was breathing hoarsely, moaning once in a while. Redrick threw
+him  face down into the  deepest puddle  and fell down next to him, reliving
+the pleasure of  the  wet, icy  caress. Arthur  gurgled, moved about, braced
+himself on his hands,  and raised  his head. He was bug-eyed, he  understood
+nothing and was greedily gulping air, coughing and spitting. Then he came to
+his senses. His gaze settled on Redrick.
+     "Phoo-oo-ey." He shook his head, scattering dirty drops of water.
+     "What was that, Mr. Schuhart?"
+     "That was death," Redrick murmured and coughed. He  felt his  face.  It
+hurt. His nose was swollen, but his brews and lashes, strangely enough, were
+in place. And the skin on his hands remained intact, but red.
+     Arthur was also gingerly  touching his face. Now that the horrible mask
+had been washed away, his face--also contrary to expectation --turned out to
+be all right. There  were a few  scratches,  a bump on his forehead, and his
+lower lip was split. But all in all, okay.
+     "I've never heard of anything like that," Arthur said looking back.
+     Redrick looked back too. There were many tracks on the gray ashy grass,
+and Redrick was amazed to see how short his terrible, endless path had been,
+when he crawled to save them from doom. It was only  twenty or  thirty yards
+from one edge of the burnt-out grass to the other, but in his  blindness and
+fear he had crawled in  some wild zigzag, like a roach on a hot skillet, and
+thank  God  he had  at  least crawled in the right  direction. He could have
+gotten into the mosquito mange on the left, or he could have  gotten  turned
+around  completely.  No, that  would  not  have happened  to  him, he was no
+greenhorn. And  if it had not been for  that fool, then nothing at all would
+have happened,  he would have  gotten blisters on  his  feet--and that would
+have been it as far as injuries.
+     He looked  at Arthur. Arthur  was washing up, moaning as he touched the
+sore spots. Redrick stood  up, and wincing  from the pain of his clothes  on
+his burnt skin, walked to a dry spot and examined the backpack. The pack had
+really  taken  a beating. The top buckles  had melted  and the  vials in the
+first-aid  kit  had burst  to hell, and  a damp  spot reeked of  antiseptic.
+Redrick opened the pack and started  picking out  the  slivers of glass  and
+plastic, when he heard Arthur's voice.
+     "Thank you, Mr. Schuhart! You saved my life!"
+     Redrick said nothing. Thanks! You fell apart, and I had to rescue you.
+     "It was my own fault. I heard your order to lie there, but I was really
+scared,  and  when  it got so hot--I  lost my head. I'm very much afraid  of
+pain, Mr. Schuhart."
+     "Why don't you get up?" Redrick said without turning around toward him.
+"That was just a sample. Get up, what are you loafing around for?"
+     Wincing  from the pain  of the pack on his burned shoulders, he put his
+arms through the straps. It felt as though the skin on the burned places had
+wrinkled up. He was afraid of pain,  was  he?  Shove you and your  pain!  He
+looked around. It was all  right,  they  hadn't  left  the path. Now for the
+hills with the corpses. The damn hills, just stood there, the lousy mothers,
+sticking out like the devil's horns,  and that damn depression between them.
+He  sniffed the air. You damn depression, that's the really  lousy part. The
+toad.
+     "See that depression between the hills?" he asked.
+     "I see it.
+     "Head straight for it. March!"
+     Arthur wiped his face with the back of his hand and moved on, splashing
+through  the  puddles.  He was  limping and did  not  look  as straight  and
+well-proportioned as he had  before. He was bent  over and  was walking very
+carefully. There's another one I pulled out, thought Redrick. What does that
+make? Five? Six? And now I wonder why? He's no relation. I'm not responsible
+for him. Listen,  Red, why did you  save  him? You  almost got  it  yourself
+because of him. Now that my head is clear, I know why. It was right to  save
+him, I can't manage without him, he's my hostage for Monkey. I didn't save a
+human being, I saved my  minesweeper. My master key. Back there in the heat,
+I never  gave it a second thought. I Pulled him out like he was my flesh and
+blood,  and didn't  even  think about  abandoning  him  Even  though  I  had
+forgotten everything -- the master key and  Monkey. What does  that mean? It
+means that  I really am a good guy, after all. That's what Guta insists, and
+Kirill used to say, and what Richard is always babbling about. Some good guy
+they found! Drop it, he told himself. You  have to think first, and then use
+your arms and legs. Got that straight? Mr. Nice  Guy. I have to save him for
+the  meatgrinder, he thought coldly and clearly. We can get past  everything
+except the grinder.
+     "Stop!"
+     The depression lay before them, and Arthur was already  standing there,
+looking at Redrick for orders. The  floor of the depression was covered with
+a  rotten  green  slime that glinted oilily in the sun. A  light  steam rose
+above it, getting  thicker between the hills, and nothing was visible beyond
+thirty  feet.  And it  stank. "It'll really stink  in  there, but  don't you
+chicken out. Arthur made a noise in the back of his throat  and backed away.
+Redrick shook himself back to action, pulled from his pocket a wad of cotton
+soaked in deodorant, stuffed up his nostrils, and offered some to Arthur.
+     "Thanks,  Mr. Schuhart. Isn't there a land route we could take?" Arthur
+asked in a weak voice.
+     Redrick  silently  took  him by  the  hair  and turned  his head in the
+direction of the bundle of rags on the stony hillside.
+     "That was  Four-eyes," he said. "And on the left  hill,  you  can't see
+from here, lies Poodle. In the same condition. Do you understand? Forward."
+     The slime  was warm and sticky. At first they walked erect, waist- deep
+in the slime. Luckily the bottom was rocky and rather even. But soon Redrick
+heard  the familiar rumble from both  sides. There was nothing  on  the left
+hill except the intense sunlight, but on the right slope, in the shade, pale
+purple lights were fluttering
+     "Bend low!" he  whispered  and  bent over  himself.  ''Lower, stupid!''
+Arthur bent over in  fright, and a clap of thunder shattered the air.  Right
+over  their  heads an  intricate  lightning bolt  danced  furiously,  barely
+visible against the bright sky. Arthur sat down, shoulder deep in the slime.
+Redrick, ears clogged by the noise, turned and saw a bright red spot quickly
+melting in  the shade among  the  pebbles  and rocks, and there was  another
+thunderclap.
+     "Forward! Forward!" he shouted, unable to hear himself.
+     Now  they  were moving in  a  crouch,  Indian  file,  only  their heads
+exposed. At every peal Redrick watched Arthur's long  hair stand on end  and
+could feel a thousand needles  puncturing  his face.  "For- ward!"  he  kept
+repeating.  "Forward!"  He could  not hear a thing  any  more. Once  he  saw
+Arthur's profile, and  he saw  his terror-stricken eyes  bulging out and his
+white bouncing lips and  his green-smeared sweaty cheek. Then the  lightning
+began  striking so low that they  had to duck their heads.  The green  slime
+gummed his mouth, making it  hard to breathe. Gulping for  air, Redrick tore
+the cotton out of his nose and discovered  that  the reek was gone, that the
+air  was filled with the fresh, piercing odor  of ozone, and that the  steam
+was  getting  thicker, or maybe he was blacking out, and he  could no longer
+see either  of the two hills. All he could see was Arthur's head sticky with
+green slime and the billowing clouds of yellow steam.
+     I'll get  through, I'll  get through, Redrick thought;  this is nothing
+new. My  whole life is like this. I'm stuck in filth  and  there's lightning
+over my head. It's never  been any  other way. Where is all this gunk coming
+from? You could go crazy from this much gunk in one place! Buzzard Burbridge
+did  this: he  walked through and  left this behind.  Four-eyes  lay on  the
+right, Poodle on the left, and all so that Buzzard could  walk  between them
+and leave all  his filth  behind. That's what you deserve,  he told himself.
+Whoever walks behind Buzzard walks up to  his neck in filth. You didn't know
+that? There are  too  many buzzards, that's why there isn't  a  single clean
+place left.
+     Noonan's a fool: Redrick, Red, you violate the balance, you destroy the
+order, you're  unhappy, Red, under any order, any system. You're  not  happy
+under a bad one, you're not happy under a good one. It's people like you who
+keep us from having the Kingdom of Heaven on Earth. What do you know, fatso?
+Where have you  seen a good system? When have you ever seen me under  a good
+system? He slipped on  a stone  that turned  under his foot, and fell in. He
+surfaced and saw Arthur's terrified face right next to his. For a second  he
+felt a chill: he thought that he had lost  his way.  But he had  not  gotten
+lost. He realized immediately that they had  to go that way, where the black
+top of  the rock stuck out of the slime; he realized that even  though there
+was nothing else visible in the yellow fog.
+     "Stop!" he shouted. "Keep right! To the right of the rock!"
+     He could not hear his own voice. He caught up  with Arthur, grabbed his
+shoulder, and  pointed: keep  right of  the  rock and keep your  head  down.
+You'll pay for  this, he thought. Arthur  dove under at the rock, just as  a
+lightning bolt hit it, smashing it to smithereens.  You'll pay for this,  he
+repeated, as he ducked under and worked furiously with his arms and legs. He
+could hear another  peal of  thunder. I'll shake your souls  out of you  for
+this! He had  a  fleeting thought: who do I mean? I don't know. But somebody
+has to pay for  this, and somebody will! Just wait, just let  me get  to the
+ball, when I get to the ball, I'm no Buzzard, I'll get what I want from you.
+     When  they finally  scrambled out onto dry  land  that  was covered  by
+sun-heated pebbles, they were  half-deaf, turned inside out,  and staggering
+and holding on to each other. Redrick saw the peeling pick-up truck, sagging
+on  its axles, and he remembered that  they could  rest  in the shade of the
+truck.  They crawled into  the  shade.  Arthur  lay on  his  back  and began
+unbuttoning his  jacket with limp  fingers, and Redrick leaned  his backpack
+against  the side of the truck, wiped his hands against the small rocks, and
+reached inside his jacket.
+     "And me, too." Arthur said. "Me too."
+     Redrick  was  surprised by the loudness of the  boy's  voice. He took a
+sip, shut his  eyes, and handed the  flask  to Arthur. That's it, he thought
+weakly. We got through. We got  through even this. And now, accounts payable
+upon demand. Do you think that  I forgot? No way, I remember it all.  Do you
+think I'll thank you for letting me live and not  drowning me? You get zilch
+from me. This  is  the end for all of you, get  it?  I'm not  leaving any of
+this. From  now on, I make all the decisions.  I, Redrick Schuhart, being of
+sound mind  and body, will  make all the decisions for everybody. And as for
+all of you, buzzards, toads, Visitors, Boneses,  Quarterblads, bloodsuckers,
+green-  backers, Throaties, in your suits and ties,  clean  and  fresh, with
+your briefcases  and speeches and good deeds  and  employment opportunities,
+and your eternal batteries and eternal engines and mosquito manges and false
+promises--I've  had  enough, you've led me by  the nose long enough.  All my
+life you've led me  by the nose, and I thought and bragged that I was living
+the  way I  wanted to,  fool,  and all the time  you were egging me  on  and
+winking among  yourselves, and leading me by  the nose, dragging me, hauling
+me through jails and  bars. I've had it! He unsnapped the straps of the pack
+and took the Bask from Arthur.
+     "I  never thought...."  Arthur  was saying with  meek disbelief in  his
+voice. "I couldn't even imagine. I knew  about death  and  fire and  all, of
+course, but something like that! How are we going to get back?"
+     Redrick was not listening. What that thing was saying no longer had any
+meaning. It  had no meaning before,  either, but before it was  a person  at
+least. And now, it was like  a  talking  key, a  key to open the way to  the
+Golden Ball. Let it talk.
+     "If we get some water," Arthur said. "At least wash our faces.
+     Redrick  looked  at  him distractedly,  saw the  disheveled  and glued-
+together hair, the face  smeared with drying slime with  finger marks in it,
+and all of him covered with a crust of oozing slime, and he felt no pity, no
+irritation,  nothing. A talking key. He turned away. A dreary expanse,  like
+an  abandoned  construction  site, yawned before them.  It was  covered with
+broken brick,  sprinkled  with white dust, and  highlighted by the  blinding
+sun,  which was unbearably white, hot, angry, and dead.  The  far end of the
+quarry was visible from there --also  blindingly white and at that  distance
+seemingly perfectly  smooth  and perpendicular. The near end  was marked  by
+large  breaks and  boulders,  and  there  was the path down into the quarry,
+where the  excavator's cabin stood out  like a red splotch against the white
+rock. That was the only landmark. They had to head for it, depending on dumb
+luck to guide them.
+     Arthur  propped himself up, stuck his arm under  the truck,  and pulled
+out a rusty tin can.
+     "Look at that, Mr.  Schuhart,"  he said, livening up. "Father must have
+left this. There's more under there.
+     Redrick  didn't reply. That's  a mistake, he thought,  dispassionately.
+Better  not think  about your father  now, you'd  be  better off not  saying
+anything.  On the other hand, it doesn't matter. Getting up,  he winced: his
+clothes  had  stuck to his body, to his burned  skin, and now  something was
+tearing  inside,  like a dried  bandage  pulling  from  a wound. Arthur also
+groaned as he got  up; he gave Redrick a martyred look. It was clear that he
+wanted to complain but that he  didn't  dare.  He  only said  in a strangled
+voice:
+     "Do you think I might have another sip, Mr. Schuhart?"
+     Redrick put the flask that he had been holding back under his shirt.
+     "Do you see that red between the rocks?"
+     "I see it," Arthur said and shuddered.
+     "Straight for it. Let's go."
+     Arthur  stretched his arms, straightened his  shoulders,  grimaced, and
+said looking around:
+     "I wish I could wash up. Everything's sticking."
+     Redrick waited silently. Arthur looked at  him hopelessly, nodded,  and
+was about to start when he stopped suddenly.
+     "The backpack. You forgot the backpack, Mr. Schuhart."
+     "March!" Redrick ordered.
+     He did not want to explain  or  to lie, and there was no need. He would
+go anyway. He had nowhere  else to go. He'd go. And Arthur went. He wandered
+on, hunched over, dragging his feet, trying to pick off the baked slime from
+his face,  looking  small,  scrawny,  and forlorn, like a wet  stray kitten.
+Redrick walked  behind him, and as soon  as he stepped out of the shade, the
+sun seared  and blinded him, and he shaded his eyes  with  his hand and  was
+sorry that he had not taken his sunglasses.
+     Every  step raised a cloud of  white dust, and the dust  settled on his
+shoes and gave off an unbearable stench. Or rather, it came from  Arthur, it
+was impossible  to walk behind  him. It took  him a while to understand that
+the stench  was  coming from himself.  The odor was disgusting,  but somehow
+familiar--that was the smell that filled the city on the days that the north
+wind carried the smoke from the plant. And his father smelled that way, too,
+when he came  home, hungry,  gloomy, with red wild eyes. And  Redrick  would
+hurry  to hide in some faraway corner and watch in  fear  as his father tore
+off  his work clothes and tossed  them to his mother,  pulled off his  huge,
+worn  shoes and shoved them on the  floor of the closet, and stalked off  to
+the shower in his stocking feet, leaving sticky footprints. He would stay in
+the shower, grunting and slapping his body, for a long time, splashing water
+and muttering under his breath, until  he shouted so that  the  house shook:
+"Maria! Are you  asleep?"  He had to  wait until his  father  had washed and
+seated himself  at the table, where  a pint bottle,  a bowl with thick soup,
+and bottle  of catsup were  ready  for him. Wait until he had slurped up all
+the soup and started on the pork and beans, and then he could creep out into
+the  light,  climb  up on his lap,  and  ask which shop  steward  and  which
+engineer he had drowned in vitriol that day.
+     Everything around him was white hot, and  he  was dizzy from the  cruel
+dry heat, the exhaustion,  and the unbearable pain of his skin blistering at
+the  joints; it seemed to him, through the hot haze that  was enveloping his
+consciousness, that  his skin was  crying out to him, begging him for peace,
+for   water,   for   coolness.   The  memories,  worn   to   the  point   of
+unrecognizability, were crowding each other in  his swollen  brain, knocking
+each other  over, blending, tumbling, mingling with the white hot world that
+was flaming before his half-closed eyes, and they  were all bitter, and they
+all evoked self-pity or hatred. He tried to fight the  chaos, to summon from
+the past  some  sweet mirage,  a feeling  of tenderness  or cheerfulness. He
+squeezed out the fresh laughing face of Guta from the depths of his  memory,
+when she was still a girl, desired and untouched, and her face appeared, but
+was immediately  blanketed  by rust and then  twisted and deformed  into the
+sullen  face  of  Monkey, covered  with  coarse brown fur.  He  struggled to
+remember Kirill, that sainted man, his swift, sure movements, his laugh, his
+voice, which  promised  unheard-of marvelous  places  and times,  and Kirill
+appeared; but then a silver cobweb  exploded on  the sun  and  Kirill was no
+more, and Throaty's  unblinking angelic eyes stared at Redrick, a  porcelain
+container  in his big  white hand....  The  dark thoughts festering  in  his
+subconscious  knocked  down  the  barrier  his  will  tried  to  create  and
+extinguished the little good that his memory contained,  and it  seemed that
+there had never been anything good at all, only ugly, vicious faces.
+     And  during all this  time, he never stopped being a  stalker.  Without
+realizing it, he  recorded somewhere in  his  nervous system  the  essential
+information: that on the left, at a safe distance, there  was a  jolly ghost
+over a pile of old planks--it was quiet, exhausted, and so the hell with it;
+on the right there was  a  slight  breeze, and  a  few steps  later he saw a
+mirror-smooth mosquito mange, with many  arms, like a starfish-far away,  no
+danger--and right in its center, a flattened bird, a rare sight, since birds
+did not  often fly over  the Zone; and  right  by the  path there  were  two
+abandoned empties--apparently Buzzard had dropped them on the way back, fear
+is stronger than  greed.  He saw  all of this  and took it into account, and
+Arthur had only to stray a single foot from their path  for  Redrick's mouth
+to open  and  the hoarse warning  to  fly automatically  from  his throat. A
+machine, he thought. You made  a machine out of me. The  broken rocks at the
+edge of  the  quarry  were getting  closer,  and  he could  see the fanciful
+designs made by rust on the cabin's red roof.
+     You fool, you,  Burbridge, Redrick thought. You're clever, but you're a
+fool. How could you have trusted me? You've known me for so long, you should
+know  me  better than I  know myself. You're getting old, that  must  be it.
+Getting  dumber.  But what am I saying,  I've been dealing with fools all my
+life. And then he pictured  Buzzard's  face when he  discovered that Arthur,
+his sweet Artie, his  one and only son, that his pride and joy had gone into
+the  Zone with Red  after  Buzzard's legs,  not  some  expendable  punk.  He
+pictured  his  face and laughed. When  Arthur turned  his frightened face to
+look at him, Redrick went  on  laughing  and motioned  him on. And then  the
+faces  crawled  across his consciousness again like  pictures on  a  screen.
+Everything had  to be changed. Not one life or two lives,  not  one  fate or
+two--every link in this rotten, stinking world had to be changed.
+     Arthur  stopped  at  the steep descent into  the quarry,  froze in  his
+steps,  straining  to  look down  and into the distance, extending  his long
+neck. Redrick joined him. But he did not look where Arthur was looking.
+     Right at their feet the  road into the quarry began, torn up many years
+ago  by the treads and wheels of heavy vehicles.  To the right was  a  white
+steep slope,  cracked by the heat; the next  slope was half  excavated,  and
+among  the rocks  and rubble stood a  bulldozer, its lowered  bucket  jammed
+impotently against the side of the  road. And,  as was to be expected, there
+was nothing else to be seen  on  the road,  except  for  the  black  twisted
+stalactites  that looked like fat candles  hanging from the jagged edges  of
+the slope, and a multitude of black splotches in the dust, as though someone
+had spilled bitumen.  That was  all that  was  left  of  them,  it was  even
+impossible to tell how many there had been. Maybe each splotch represented a
+person, or one of Buzzard's wishes.  That one there  was Buzzard coming back
+alive and  unharmed  from the basement of Complex #7. That  bigger one  over
+there  was Buzzard getting the  wriggling magnet out of the Zone  unscathed.
+And that icicle was the luxurious  Dina Burbridge, who resembled neither her
+mother nor her father. And that  spot there was Arthur Burbridge, unlike his
+father and mother, Artie, the handsome son, their pride and joy.
+     "We made it!" Arthur rasped deliriously. "Mr. Schuhart, we did make it,
+after all, right?"
+     He laughed a happy laugh, crouched down, and beat both fists as hard as
+he could on the  ground.  His  matted  hair bounced ridiculously, and  dried
+clumps of dirt flew  in all directions. And only then did Redrick look up at
+the ball. Carefully. With caution. With a hidden fear that it would turn out
+wrong--that it would disappoint him, evoke doubts, throw him  from the cloud
+that he had managed to scramble up on, and leave him to wallow in filth.
+     It was not golden, it was more  a copper color, reddish, and completely
+smooth, and  it shone dully in the sun. It lay at  the foot  of the quarry's
+far wall,  cozily ensconced amid  the piles  of  accumulated rocks, and even
+from that  distance, he could  see how  heavy  and massive  it was,  and how
+solidly it lay in its place.
+     There was nothing disappointing or doubt-inspiring about it, but  there
+was nothing to inspire hope either. For some reason,  his first thought  was
+that it was  probably hollow  and that it  should  be hot to  the touch from
+being  in the sun.  It obviously did  not  glow with  its  own light and  it
+obviously was incapable of floating up  and dancing in the  air,  the way so
+many of the  tales had  it. It lay where it had fallen. Maybe  it had fallen
+out of some monstrously huge  pocket or had  gotten lost, rolled away during
+some game between some giants. It had not been carefully placed here, it had
+been left behind,  littering up  the Zone  like all  the empties, bracelets,
+batteries, and other rubbish remaining after the Visitation.
+     But  at the same time, there was  something  about  it, and  the longer
+Redrick looked at  it, the clearer it became that it was pleasant to look at
+it, that he  wanted to go up to  it, to touch it, pat  it, and suddenly  the
+thought came to him that it would be good, probably, to sit down next to it,
+or  even better,  to lean  back against  it,  close  his  eyes,  and  think,
+reminisce, and maybe just  dream  and drowse and rest.... Arthur  jumped up,
+tore open all  the zippers on  his  jacket,  took  it off, and threw it down
+smack at his feet, raising a cloud of white dust. He was shouting something,
+making faces and waving his arms, and then he put his hands behind his back,
+and dancing a jig, headed down the slope. He was not looking at  Redrick any
+more, he had forgotten Redrick,  he  had forgotten everything. He  was going
+down  to make his wishes come true, the little secret wishes of  a  blushing
+college student, of a boy who had never seen any money beyond his allowance,
+who had been beaten mercilessly  if he had a whiff  of alcohol on his breath
+when he came home, and who was being groomed to  be a famous  lawyer, and in
+the  future, a  cabinet minister,  and  in  the distant future,  and  as his
+greatest prospect--president.  Redrick, squinting  his swollen  eyes against
+the blinding light, silently watched him go. He was cool and calm,  he  knew
+what was about  to happen, and  he knew that he would not watch, but it  was
+still all right to  watch, and he did, feeling nothing in particular, except
+that deep inside a little worm  started wriggling  around  and  twisting its
+sharp head in his gut.
+     And the boy  kept  walking down, dancing a  jig,  shuffling to his  own
+beat, and the white dust rose from his heels, and he was shouting at the top
+of  his lungs,  clearly,  joyously,  and  festively--either  a  song  or  an
+incantation--and Redrick thought that this was the first time in the history
+of the quarry that a man went down there as though he were going to a party.
+And at first he did not listen to what his talking key was yelling, and then
+something clicked inside him and he heard:
+     "Happiness for everybody!  ...  Free! ...  As  much as  you want! ..  .
+Everybody come here! . . . There's enough  for everybody! Nobody will  leave
+unsatisfied! ... Free! ... Happiness! ... Free!"
+     And then he was suddenly silent, as though a huge fist  had punched him
+in the mouth. And Redrick saw the transparent emptiness that was lurking  in
+the  shadow of the excavator's bucket grab him, throw him up in the air, and
+slowly slowly twist him,  like a  housewife wringing her  wash.  Redrick had
+time  to see one of his dusty shoes fall  off his jerking  leg and fly  high
+above  the  quarry.  Then he turned away and sat down. There wasn't a single
+thought in his head,  and he  had  somehow  stopped sensing himself. Silence
+hung heavy in the air, particularly behind  him, there on the road.  Then he
+remembered  the flask, without particular joy, but  just as medicine that it
+was time to take. He unscrewed the cap and drank with tiny  stingy sips, and
+for the first  time in his life he  wished that instead of liquor, the  Bask
+contained cold water.
+     Time  passed, and more or  less coherent  thoughts came  to him.  Well,
+that's it, he thought unwillingly. The road is open. He could go down  right
+now, but it was better, of course,  to wait a while. The meatgrinders can be
+tricky.  Anyway,  he  had  some thinking to do.  An  unaccustomed  exercise,
+thinking,  that was the trouble.  What was "thinking" anyway? Thinking meant
+finding a  loophole,  pulling  a  bluff,  pulling the  wool  over  someone's
+eyes--but all that was out of place here.
+     All  right.  Monkey, his father.... Make  them pay  for that, steal the
+bastards' souls,  let the sons of bitches eat what I've been eating. ... No,
+that's not it, Red.... I mean, that is it, but what  does it mean? What do I
+need? That's cursing, not thinking. A terrible presentiment chilled him, and
+quickly  skipping over the many arguments that were still ahead  of him,  he
+told himself angrily: this is how it is, Red, you won't leave here until you
+figure it out, you'll  drop  dead  here next to the ball, burn  to death and
+rot, but you won't leave.
+     God, where are the words, where are my thoughts? He slapped his head. I
+have never had a thought in  my entire life! Wait, wait, Kirill  used to say
+something like that. Kirill!  He feverishly  dug through  his memories,  and
+words  Boated to the surface,  familiar  ones and unfamiliar, but it was all
+wrong,  because  Kirill had  not left words  behind.  He  had left pictures,
+vague, and very kind, but thoroughly improbable.
+     Meanness and  treachery. They let  me  down  in this too, they left  me
+speechless, the bastards. A bum--I was always a bum, and now I'm an old bum.
+It's  not  right, do you hear me? In  the future, for  once and for  all, it
+should be outlawed! Man is born  in order to think (there he is,  old Kirill
+at  last!). Only I don't believe it. I  didn't believe it before and I don't
+believe it now. And I don't know what man is born for. I was born. So here I
+am. People eat whatever they  can. Let all of us  be  healthy and let all of
+them drop dead. Who  is us and who are they? I  don't understand a thing. If
+I'm  happy,  Burbridge isn't, if  Burbridge's  happy,  Four-eyes  isn't,  if
+Throaty is happy, no  one else is, and if things  are bad for Throaty,  he's
+the only one fool enough to  think he'll manage somehow. God, it's  just one
+long brawl! I fight all my life with Captain Quarterblad,  and he fights all
+his life with Throaty, and all he wants from me  is that I give up stalking.
+But how can I give up stalking  when I have a family  to  feed? Get a job? I
+don't want to work for you, your work makes me puke, do you understand? This
+is  the  way I figure it: if a man works  with you, he is always working for
+one  of  you,  he is a  slave and  nothing  else. And I always wanted to  be
+myself, on  my own,  so that I could  spit  at you all, at your boredom  and
+despair.
+     He finished the dregs of the brandy  and  threw  the empty flask to the
+ground  with all his  might. The  flask bounced, flashing  in  the  sun, and
+rolled away. He forgot about it immediately. He sat there, covering his eyes
+with  his hands, and  he  was  trying--not to understand,  not to think, but
+merely  to see something  of  how things should be, but  all he saw were the
+faces,  faces, faces, and more faces ... and greenbacks, bottles, bundles of
+rags that were once people, and columns of figures. He knew that  it all had
+to be  destroyed, and he wanted to destroy it, but he guessed that if it all
+disappeared there  would  be  nothing  left  but  the flat, bare  earth. His
+frustration and despair made him want to lean back against the ball. He  got
+up, automatically brushed off his pants, and started down into the quarry.
+     The sun  was broiling hot,  red  spots floated before his eyes, the air
+was quivering on the floor of the quarry, and in the shimmer it seemed  that
+the ball  was dancing in  place like a buoy on the waves. He  went past  the
+bucket, superstitiously picking up  his  feet higher and making sure not  to
+step on the splotches. And then, sinking into the rubble, he dragged himself
+across the quarry to the dancing,  winking ball.  He was covered with  sweat
+and panting from the heat, and at the same time, a chill was running through
+him,  he was shuddering,  as  if he had a bad hangover, and  the sweet chalk
+dust  gritted between his  teeth.  He had stopped  trying  to think. He just
+repeated his  litany over and  over: "I am an animal, you see  that. I don't
+have the words, they didn't teach me the words. I  don't know how  to think,
+the  bastards  didn't let me learn how to think.  But if  you really are ...
+all-powerful ... all-knowing ... then you figure it out! Look into my heart.
+I know that everything you need is  in  there. It has to be. I never sold my
+soul to anyone! It's mine,  it's human! You take from me what it is  I  want
+... it just can't be that I would  want something bad! Damn it all,  I can't
+think of anything, except those words of  his ...'HAPPINESS  FOR  EVERYBODY,
+FREE, AND NO ONE WILL GO AWAY UNSATISFIED!' "
